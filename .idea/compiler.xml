@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pwa2021" />
+        <module name="pwa2021-be" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pwa2021-ui" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
