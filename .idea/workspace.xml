@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d570978b-e1ab-4bc1-8002-3d96860d6842" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/Message.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageListViewer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/RoomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/AuthorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/ChatRoomDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/SimpleMessageDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/MVCWebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/MVCWebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/WebSocketConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/cz/mazl/tul/config/MVCWebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/cz/mazl/tul/config/MVCWebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/cz/mazl/tul/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/cz/mazl/tul/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,7 +59,7 @@
           <entry key="Procfile" value="1" />
           <entry key="class" value="1" />
           <entry key="css" value="5" />
-          <entry key="gitignore" value="3" />
+          <entry key="gitignore" value="4" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="26" />
@@ -120,7 +85,7 @@
           <entry key="JSON" value="2" />
           <entry key="JSP" value="3" />
           <entry key="JavaScript" value="11" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="Properties" value="3" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="10" />
@@ -136,11 +101,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+            <state relative-caret-position="391">
+              <caret line="85" column="72" selection-start-line="85" selection-start-column="72" selection-end-line="85" selection-end-column="72" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -148,14 +113,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
+            <state relative-caret-position="310">
               <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
                 <element signature="e#63#86#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -250,24 +224,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/AuthorDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -336,10 +292,10 @@
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/AuthorDto.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/SimpleMessageDTO.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/ChatController.java" />
-        <option value="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" />
         <option value="$PROJECT_DIR$/pwa-2021-ui/src/component/Message.css" />
         <option value="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageListViewer.js" />
         <option value="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js" />
+        <option value="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" />
       </list>
     </option>
   </component>
@@ -739,78 +695,6 @@
             <path>
               <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
               <item name="pwa-2021-ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -818,13 +702,6 @@
               <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
               <item name="pwa-2021-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa-2021-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
@@ -854,7 +731,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603039388948" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603045751756" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pwa2021-be/src/main/webapp/WEB-INF/pages/ahoj.jsp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -933,12 +810,12 @@
       <workItem from="1602949597202" duration="5206000" />
       <workItem from="1602955279314" duration="9795000" />
       <workItem from="1603007389128" duration="749000" />
-      <workItem from="1603009680688" duration="18404000" />
+      <workItem from="1603009680688" duration="19582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34154000" />
+    <option name="totallyTimeSpent" value="35332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -953,7 +830,7 @@
     <frame x="1912" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23777506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23777506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -966,19 +843,19 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32583067" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32583067" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.3290461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1037,13 +914,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pwa-2021-ui/target/classes/public/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/tst.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1323,16 +1193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/Message.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1349,10 +1209,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
+        <state relative-caret-position="310">
           <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
             <element signature="e#63#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="85" column="72" selection-start-line="85" selection-start-column="72" selection-end-line="85" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

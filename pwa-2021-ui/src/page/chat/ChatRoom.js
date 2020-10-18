@@ -83,7 +83,7 @@ class ChatRoom extends React.Component {
                                            ref={(e) => this.messageList = e}/>
                     </CardContent>
                     <CardActions disableSpacing>
-                        <SockJsClient url='http://localhost:8080/ws' topics={['/topics/room/' + roomId]}
+                        <SockJsClient url='http://pwa-2021.herokuapp.com/ws' topics={['/topics/room/' + roomId]}
                                       onMessage={this.onMessage.bind(this)}
                                       ref={(client) => {
                                           this.clientRef = client
