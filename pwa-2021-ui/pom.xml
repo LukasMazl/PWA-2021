@@ -28,7 +28,7 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${basedir}/target/classes/public</outputDirectory>
+                            <outputDirectory>${basedir}/../pwa2021-be/src/main/webapp</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>${project.basedir}/build</directory>
@@ -49,7 +49,7 @@
                             <goal>install-node-and-yarn</goal>
                         </goals>
                         <configuration>
-                            <nodeVersion>v9.9.0</nodeVersion>
+                            <nodeVersion>v10.14.2</nodeVersion>
                             <yarnVersion>v1.5.1</yarnVersion>
                         </configuration>
                     </execution>

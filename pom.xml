@@ -16,8 +16,8 @@
     </parent>
 
     <modules>
-        <module>pwa2021-be</module>
         <module>pwa-2021-ui</module>
+        <module>pwa2021-be</module>
     </modules>
 
     <build>

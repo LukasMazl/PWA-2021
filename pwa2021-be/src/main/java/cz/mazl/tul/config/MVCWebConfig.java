@@ -18,7 +18,7 @@ public class MVCWebConfig extends WebMvcConfigurerAdapter {
     public ViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
         viewResolver.setViewClass(JstlView.class);
-        viewResolver.setPrefix("/WEB-INF/pages/");
+        viewResolver.setPrefix("pages/");
         viewResolver.setSuffix(".jsp");
         return viewResolver;
     }
@@ -26,14 +26,14 @@ public class MVCWebConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("swagger-ui.html").addResourceLocations("classpath:/META-INF/resources/");
-        registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
+        registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
         registry.addResourceHandler("/material-dashboard-react/**")
                 .addResourceLocations("classpath:/META-INF/resources/WEB-INF/material-dashboard-react/");
     }
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/").setViewName("forward:/material-dashboard-react/index.html");
+        registry.addViewController("/").setViewName("forward:/index.html");
         registry.addViewController("/admin/*").setViewName("forward:/material-dashboard-react/index.html");
     }
 
