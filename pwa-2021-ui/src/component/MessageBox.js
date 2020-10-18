@@ -15,7 +15,7 @@ class MessageBox extends React.Component {
         const isMine = author !== messageAuthor;
         const avatar = this.props.message.author.avatar;
         const startsSequence = (this.props.startSequence) ? this.props.startSequence : "start";
-        const endsSequence = (this.props.endSequence) ? this.props.endSequence : "start";
+        const endsSequence = (this.props.endSequence) ? this.props.endSequence : "end";
         const showTimestamp = false;
         // const friendlyTimestamp = moment(new Date()).format('LLLL');
         const friendlyTimestamp = "" + new Date();
