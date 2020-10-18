@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar ./target/dependency/webapp-runner.jar --port 8080 ./pwa2021-be\target\pwa2021-be-1.0-SNAPSHOT.war
+web: java $JAVA_OPTS -jar ./target/dependency/webapp-runner.jar --port 8080 ./pwa2021-be/target/gpwa2021-be-1.0-SNAPSHOT.war
