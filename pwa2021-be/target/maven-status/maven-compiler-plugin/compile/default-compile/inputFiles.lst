@@ -1,5 +1,10 @@
 C:\Users\Lukas-Z87\Desktop\intellij\pwa2021\pwa2021-be\src\main\java\cz\mazl\tul\config\MVCWebConfig.java
 C:\Users\Lukas-Z87\Desktop\intellij\pwa2021\pwa2021-be\src\main\java\cz\mazl\tul\config\SwaggerConfig.java
-C:\Users\Lukas-Z87\Desktop\intellij\pwa2021\pwa2021-be\src\main\java\cz\mazl\tul\controller\TestController.java
+C:\Users\Lukas-Z87\Desktop\intellij\pwa2021\pwa2021-be\src\main\java\cz\mazl\tul\dto\ChatRoomDTO.java
+C:\Users\Lukas-Z87\Desktop\intellij\pwa2021\pwa2021-be\src\main\java\cz\mazl\tul\config\SecurityConfig.java
+C:\Users\Lukas-Z87\Desktop\intellij\pwa2021\pwa2021-be\src\main\java\cz\mazl\tul\controller\ChatController.java
+C:\Users\Lukas-Z87\Desktop\intellij\pwa2021\pwa2021-be\src\main\java\cz\mazl\tul\controller\UserController.java
+C:\Users\Lukas-Z87\Desktop\intellij\pwa2021\pwa2021-be\src\main\java\cz\mazl\tul\dto\SimpleMessageDTO.java
+C:\Users\Lukas-Z87\Desktop\intellij\pwa2021\pwa2021-be\src\main\java\cz\mazl\tul\controller\RoomController.java
 C:\Users\Lukas-Z87\Desktop\intellij\pwa2021\pwa2021-be\src\main\java\cz\mazl\tul\Application.java
 C:\Users\Lukas-Z87\Desktop\intellij\pwa2021\pwa2021-be\src\main\java\cz\mazl\tul\config\WebSocketConfig.java

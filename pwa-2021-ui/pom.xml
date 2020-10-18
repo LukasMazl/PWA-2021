@@ -72,19 +72,6 @@
                             <arguments>build</arguments>
                         </configuration>
                     </execution>
-                    <execution>
-                        <id>test</id>
-                        <goals>
-                            <goal>yarn</goal>
-                        </goals>
-                        <phase>test</phase>
-                        <configuration>
-                            <arguments>test</arguments>
-                            <environmentVariables>
-                                <CI>true</CI>
-                            </environmentVariables>
-                        </configuration>
-                    </execution>
                 </executions>
             </plugin>
         </plugins>
