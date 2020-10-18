@@ -28,7 +28,7 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${basedir}/../pwa2021-be/src/main/webapp</outputDirectory>
+                            <outputDirectory>${basedir}/../pwa2021-be\src\main\resources\WEB-INF</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>${project.basedir}/build</directory>

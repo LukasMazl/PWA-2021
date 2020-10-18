@@ -25,16 +25,15 @@ public class MVCWebConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("swagger-ui.html").addResourceLocations("classpath:/META-INF/resources/");
-        registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
-        registry.addResourceHandler("/material-dashboard-react/**")
-                .addResourceLocations("classpath:/META-INF/resources/WEB-INF/material-dashboard-react/");
+        registry.addResourceHandler("swagger-ui.html").addResourceLocations("classpath:/WEB-INF/");
+        registry.addResourceHandler("/static/**").addResourceLocations("classpath:/WEB-INF/static/");
+        registry.addResourceHandler("/**")
+                .addResourceLocations("classpath:/WEB-INF/");
     }
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/").setViewName("forward:/index.html");
-        registry.addViewController("/admin/*").setViewName("forward:/material-dashboard-react/index.html");
     }
 
 }

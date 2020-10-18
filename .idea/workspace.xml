@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d570978b-e1ab-4bc1-8002-3d96860d6842" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/application-heroku.properites" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa2021-be/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/MVCWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/MVCWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/MVCWebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/MVCWebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/WebSocketConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/cz/mazl/tul/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/cz/mazl/tul/controller/TestController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,28 +39,33 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Procfile" value="143" />
           <entry key="gitignore" value="26" />
-          <entry key="java" value="176" />
+          <entry key="java" value="206" />
+          <entry key="js" value="9" />
           <entry key="jsp" value="20" />
-          <entry key="properties" value="6" />
-          <entry key="xml" value="411" />
+          <entry key="properites" value="1" />
+          <entry key="properties" value="76" />
+          <entry key="xml" value="418" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="176" />
+          <entry key="JAVA" value="206" />
           <entry key="JSP" value="20" />
-          <entry key="PLAIN_TEXT" value="169" />
-          <entry key="Properties" value="6" />
-          <entry key="XML" value="411" />
+          <entry key="JavaScript" value="9" />
+          <entry key="PLAIN_TEXT" value="170" />
+          <entry key="Properties" value="76" />
+          <entry key="XML" value="418" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,13 +75,14 @@
           <entry key="gitignore" value="3" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="13" />
-          <entry key="js" value="2" />
+          <entry key="java" value="17" />
+          <entry key="js" value="3" />
           <entry key="jsp" value="3" />
           <entry key="log" value="1" />
-          <entry key="properties" value="2" />
+          <entry key="properites" value="1" />
+          <entry key="properties" value="3" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -68,12 +90,12 @@
           <entry key="CLASS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="17" />
           <entry key="JSP" value="3" />
-          <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="8" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -81,69 +103,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            <state relative-caret-position="306">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="96" column="34" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/Application.java">
+        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/resources/application-heroku.properites">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/.gitignore">
+        <entry file="file://$PROJECT_DIR$/pwa2021-be/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="322">
+              <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/WebSocketConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="119">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="85">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,8 +189,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/MVCWebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="323">
+              <caret line="27" column="52" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,8 +199,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/tst.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -194,6 +224,7 @@
       <find>mon</find>
       <find>tom</find>
       <find>spring-boot-starter-tomcat</find>
+      <find>invalid_id_token</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -216,16 +247,20 @@
         <option value="$PROJECT_DIR$/src/main/java/cz/mazl/tul/config/WebSocketConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/mazl/tul/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/pwa2021-ui/pom.xml" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/pages/ahoj.jsp" />
-        <option value="$PROJECT_DIR$/pwa-2021-ui/pom.xml" />
         <option value="$PROJECT_DIR$/pwa-2021-ui/.gitignore" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/MVCWebConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/Application.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/pwa-2021-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/MVCWebConfig.java" />
+        <option value="$PROJECT_DIR$/pwa-2021-ui/src/App.js" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pwa2021-be/pom.xml" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/resources/application-heroku.properites" />
       </list>
     </option>
   </component>
@@ -288,6 +323,314 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/ansicolors/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/ansistyles/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/aproba/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/archy/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/async-some/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/chownr/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/cmd-shim/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/cmd-shim/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/columnify/node_modules/wcwidth/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/columnify/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/config-chain/node_modules/proto-list/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/config-chain/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/debuglog/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/dezalgo/node_modules/asap/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/dezalgo/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/editor/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/fs-vacuum/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/fs-write-stream-atomic/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/fstream-npm/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/fstream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/glob/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/glob/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/has-unicode/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/hosted-git-info/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/iferr/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/init-package-json/node_modules/promzard/example/npm-init/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/init-package-json/node_modules/promzard/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/init-package-json/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lockfile/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash._baseindexof/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash._baseuniq/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash._bindcallback/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash._cacheindexof/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash._createcache/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash._getnative/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.clonedeep/node_modules/lodash._baseclone/node_modules/lodash._arraycopy/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.clonedeep/node_modules/lodash._baseclone/node_modules/lodash._arrayeach/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.clonedeep/node_modules/lodash._baseclone/node_modules/lodash._baseassign/node_modules/lodash._basecopy/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.clonedeep/node_modules/lodash._baseclone/node_modules/lodash._baseassign/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.clonedeep/node_modules/lodash._baseclone/node_modules/lodash._basefor/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.clonedeep/node_modules/lodash._baseclone/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.clonedeep/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.isarguments/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.isarray/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.keys/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.restparam/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.union/node_modules/lodash._baseflatten/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.union/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.uniq/node_modules/lodash._basecallback/node_modules/lodash._baseisequal/node_modules/lodash.istypedarray/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.uniq/node_modules/lodash._basecallback/node_modules/lodash._baseisequal/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.uniq/node_modules/lodash._basecallback/node_modules/lodash.pairs/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.uniq/node_modules/lodash._basecallback/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.uniq/node_modules/lodash._isiterateecall/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.uniq/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.without/node_modules/lodash._basedifference/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/lodash.without/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/glob/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/sigmund/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/ansi/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/delegates/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/are-we-there-yet/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash._basetostring/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash._createpadding/node_modules/lodash.repeat/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash._createpadding/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._basetostring/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._createpadding/node_modules/lodash.repeat/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._createpadding/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._basetostring/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._createpadding/node_modules/lodash.repeat/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._createpadding/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/debug/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/node_modules/path-array/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/node-gyp/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/normalize-git-url/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules/builtin-modules/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/normalize-package-data/node_modules/is-builtin-module/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/normalize-package-data/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-cache-filename/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/ansi/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/delegates/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/are-we-there-yet/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash._basetostring/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash._createpadding/node_modules/lodash.repeat/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash._createpadding/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._basetostring/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._createpadding/node_modules/lodash.repeat/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._createpadding/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._basetostring/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._createpadding/node_modules/lodash.repeat/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._createpadding/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-install-checks/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-package-arg/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/typedarray/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-registry-client/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npm-user-validate/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/ansi/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/delegates/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/are-we-there-yet/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash._basetostring/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash._createpadding/node_modules/lodash.repeat/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash._createpadding/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._basetostring/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._createpadding/node_modules/lodash.repeat/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._createpadding/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._basetostring/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._createpadding/node_modules/lodash.repeat/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._createpadding/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/node_modules/gauge/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/opener/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/osenv/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/osenv/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/path-is-inside/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-cmd-shim/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-installed/node_modules/util-extend/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-installed/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-installed/test/fixtures/extraneous-detected/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-installed/test/fixtures/extraneous-dev-dep/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-installed/test/fixtures/grandparent-peer-dev/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-installed/test/fixtures/grandparent-peer/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-installed/test/fixtures/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-package-json/node_modules/json-parse-helpfulerror/node_modules/jju/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-package-json/node_modules/json-parse-helpfulerror/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-package-json/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-package-json/test/fixtures/readmes/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-package-tree/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-package-tree/test/fixtures/bad/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-package-tree/test/fixtures/empty/node_modules/foo/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-package-tree/test/fixtures/root/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read-package-tree/test/fixtures/selflink/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/read/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/readdir-scoped-modules/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/realize-package-specifier/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/bl/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/bl/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/form-data/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/commander/node_modules/graceful-readlink/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-function/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-object-property/node_modules/is-property/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-object-property/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/jsonpointer/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/pinkie-promise/node_modules/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/boom/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/sntp/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/hawk/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/ctype/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/node-uuid/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/stringstream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/retry/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/sha/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/sha/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/sha/node_modules/readable-stream/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/sha/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/sha/node_modules/readable-stream/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/sha/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/sha/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/slide/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/sorted-object/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/tar/node_modules/block-stream/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/tar/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/text-table/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/uid-number/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/umask/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/unique-filename/node_modules/unique-slug/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/unique-filename/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-correct/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules/spdx-exceptions/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-license-ids/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/validate-npm-package-license/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/validate-npm-package-name/node_modules/builtins/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/validate-npm-package-name/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/which/node_modules/is-absolute/node_modules/is-relative/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/which/node_modules/is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/node_modules/write-file-atomic/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/disabled/bundlerecurs/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/disabled/change-bin-1/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/disabled/change-bin-2/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/disabled/failer/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/disabled/fast/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/disabled/package-bar/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/disabled/package-config/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/disabled/package-foo/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/disabled/slow/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/fixtures/config/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-array-bin/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-blerg/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-blerg3/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-bundled-git/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-dir-bin/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-env-reader/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-files/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-ignore-nested-nm/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-ignore/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-missing-bindir/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-optional-deps/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-platform-all/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-platform/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-private/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-shrinkwrap/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-test-package/package.json" />
+      <path value="$PROJECT_DIR$/pwa-2021-ui/node/node/node_modules/npm/test/packages/npm-test-url-dep/package.json" />
       <path value="$PROJECT_DIR$/pwa-2021-ui/node/yarn/dist/package.json" />
       <path value="$PROJECT_DIR$/pwa-2021-ui/package.json" />
     </packageJsonPaths>
@@ -303,6 +646,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,12 +700,18 @@
               <item name="tul" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
+              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,7 +721,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603006368280" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603017872837" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pwa2021-be/src/main/webapp/WEB-INF/pages/ahoj.jsp" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -437,19 +788,29 @@
       <option name="presentableId" value="Default" />
       <updated>1602949585756</updated>
       <workItem from="1602949597202" duration="5206000" />
-      <workItem from="1602955279314" duration="8988000" />
+      <workItem from="1602955279314" duration="9795000" />
+      <workItem from="1603007389128" duration="749000" />
+      <workItem from="1603009680688" duration="994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14194000" />
+    <option name="totallyTimeSpent" value="16744000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="JavaEE:App" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20255864" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -458,18 +819,19 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="npm" order="7" side_tool="true" />
       <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="JavaEE:App" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.32936078" />
@@ -478,7 +840,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.4706823" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.26066098" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -503,16 +865,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cz/mazl/tul/config/WebSocketConfig.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cz/mazl/tul/config/SwaggerConfig.java" />
     <entry file="file://$PROJECT_DIR$/pwa2021-ui/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pwa2021-be/pwa2021-be.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -523,36 +875,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/pages/ahoj.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/WebSocketConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/pages/ahoj.jsp" />
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/webapp/WEB-INF/pages/ahoj.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -573,13 +896,6 @@
     <entry file="file://$PROJECT_DIR$/pwa-2021-ui/target/classes/public/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pwa-2021-ui/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -593,10 +909,24 @@
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/js/2.681353ed.chunk.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/MVCWebConfig.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="731">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -610,17 +940,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="119">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -631,32 +957,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/Application.java">
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/WebSocketConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="119">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/MVCWebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pwa2021-be/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="96" column="34" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+        <state relative-caret-position="322">
+          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/resources/application-heroku.properites">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
