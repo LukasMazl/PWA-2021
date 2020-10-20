@@ -11,6 +11,8 @@ import CardContent from "@material-ui/core/CardContent/CardContent";
 import Typography from "@material-ui/core/Typography/Typography";
 import CardActions from "@material-ui/core/CardActions/CardActions";
 import MessageListViewer from "../../component/MessageListViewer";
+import ApiCaller from "../../api/ApiCaller";
+import GlobalConstant from "../../config/GlobalConstant";
 
 class ChatRoom extends React.Component {
 
@@ -25,7 +27,22 @@ class ChatRoom extends React.Component {
     }
 
     renderChat(roomId) {
+        this.getLastDataForRoom(roomId);
         return (<div/>);
+    }
+
+    getLastDataForRoom(roomId) {
+        ApiCaller.getCall(
+            ApiCaller.GET_LAST_MESSAGES_FROM_ROOM,
+            {
+                "roomID": roomId
+            },
+            (res) => {
+                this.onGetMessage(res);
+            },
+            (res) => {
+                console.error(res);
+            });
     }
 
     renderTextForm(roomId) {
@@ -68,7 +85,7 @@ class ChatRoom extends React.Component {
 
     render() {
         const roomId = this.props.roomId;
-        if (this.state.isLoaded) {
+        if (!this.state.isLoaded) {
             return this.renderChat(roomId)
         } else {
             return (
@@ -83,7 +100,7 @@ class ChatRoom extends React.Component {
                                            ref={(e) => this.messageList = e}/>
                     </CardContent>
                     <CardActions disableSpacing>
-                        <SockJsClient url='http://pwa-2021.herokuapp.com/ws' topics={['/topics/room/' + roomId]}
+                        <SockJsClient url={GlobalConstant.FULL_WEB_SOCKET_URL} topics={['/topics/room/' + roomId]}
                                       onMessage={this.onMessage.bind(this)}
                                       ref={(client) => {
                                           this.clientRef = client
@@ -94,6 +111,14 @@ class ChatRoom extends React.Component {
                 </Card>
             );
         }
+    }
+
+    onGetMessage(res) {
+        const messages = res.messages;
+        this.setState({
+            messages: messages,
+            isLoaded: true
+        });
     }
 }
 
