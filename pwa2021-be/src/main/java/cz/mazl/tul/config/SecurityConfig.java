@@ -18,11 +18,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 "https://www.googleapis.com/auth/userinfo.email");
         googleScopes.add(
                 "https://www.googleapis.com/auth/userinfo.profile");
-
         OidcUserService googleUserService = new OidcUserService();
         googleUserService.setAccessibleScopes(googleScopes);
 
-        http
+        http.csrf().disable()
                 .authorizeRequests(authorizeRequests -> authorizeRequests
                         .anyRequest().authenticated())
                 .oauth2Login(oauthLogin -> oauthLogin
