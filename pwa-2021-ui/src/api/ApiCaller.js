@@ -7,7 +7,7 @@ class ApiCaller {
     static REST_API_ENDPOINT = ApiCaller.ORIGIN_URL + ApiCaller.REST_API_PREFIX;
 
     static GET_LAST_MESSAGES_FROM_ROOM = ApiCaller.REST_API_ENDPOINT + "/room/messages";
-
+    static SEND_MESSAGE_TO_ROOM = ApiCaller.REST_API_ENDPOINT + "/send";
 
     static getCall(url, data, callback, errorCallback, onResp) {
         const keys = Object.keys(data);
@@ -30,7 +30,7 @@ class ApiCaller {
                 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, Set-cookies, Authorization'
             },
             mode: "cors",
-            data: null
+            data: data
         })
             .then(res => {
                 if (onResp !== undefined) {
