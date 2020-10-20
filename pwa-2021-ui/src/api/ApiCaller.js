@@ -35,8 +35,12 @@ class ApiCaller {
         };
 
         if(jsonData !== null) {
+            console.log(jsonData);
             request["body"] = jsonData;
+            console.log(request)
         }
+        console.log(request);
+
         fetch(url, request)
             .then(res => {
                 if (onResp !== undefined) {
