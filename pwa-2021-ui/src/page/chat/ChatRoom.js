@@ -73,8 +73,11 @@ class ChatRoom extends React.Component {
                                 this.messageBox.value = "";
                                 ApiCaller.call(ApiCaller.SEND_MESSAGE_TO_ROOM,
                                     "POST",
-                                    {"roomId" : roomId,
-                                     "message": value});
+                                    {
+                                        "roomId" : roomId,
+                                        "message": value
+                                    }
+                                    );
                             }}
                     >
                         Send
