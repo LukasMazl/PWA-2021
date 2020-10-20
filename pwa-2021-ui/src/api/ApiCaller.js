@@ -22,6 +22,7 @@ class ApiCaller {
     }
 
     static call(url, method, data, callback, errorCallback, onResp) {
+        let jsonData = (data !== null)? JSON.stringify(data): null;
         fetch(url, {
             method: method,
             headers: {
@@ -30,7 +31,7 @@ class ApiCaller {
                 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, Set-cookies, Authorization'
             },
             mode: "cors",
-            data: data
+            data: jsonData
         })
             .then(res => {
                 if (onResp !== undefined) {
