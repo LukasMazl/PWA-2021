@@ -1,11 +1,13 @@
 package cz.mazl.tul.dto;
 
+import cz.mazl.tul.bussines.Message;
+
 import java.util.List;
 
 public class HistoricalMessagesDTO {
     private String roomId;
     private boolean sorted;
-    private List<SimpleMessageDTO> messages;
+    private List<Message> messages;
 
     public String getRoomId() {
         return roomId;
@@ -23,11 +25,11 @@ public class HistoricalMessagesDTO {
         this.sorted = sorted;
     }
 
-    public List<SimpleMessageDTO> getMessages() {
+    public List<Message> getMessages() {
         return messages;
     }
 
-    public void setMessages(List<SimpleMessageDTO> messages) {
+    public void setMessages(List<Message> messages) {
         this.messages = messages;
     }
 }

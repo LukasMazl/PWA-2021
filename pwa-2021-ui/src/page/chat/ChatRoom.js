@@ -56,7 +56,9 @@ class ChatRoom extends React.Component {
                     <TextField
                         id="message_text"
                         label="Message"
-                        inputRef={(e) => {this.messageBox = e}}
+                        inputRef={(e) => {
+                            this.messageBox = e
+                        }}
                         multiline
                         defaultValue=""
                         variant="outlined"
@@ -68,16 +70,17 @@ class ChatRoom extends React.Component {
                     <Button variant="contained" style={{width: "100%", height: "100%", marginRight: "10px"}}
                             color={"primary"}
                             onClick={(e) => {
-                                console.log(this.messageBox.id);
                                 const value = this.messageBox.value;
-                                this.messageBox.value = "";
                                 ApiCaller.call(ApiCaller.SEND_MESSAGE_TO_ROOM,
                                     "POST",
                                     {
-                                        "roomId" : roomId,
+                                        "roomId": roomId,
                                         "message": value
+                                    },
+                                    (resp) => {
+                                        this.messageBox.value = "";
                                     }
-                                    );
+                                );
                             }}
                     >
                         Send

@@ -1,15 +1,15 @@
-package cz.mazl.tul.dto;
-
-import cz.mazl.tul.bussines.Author;
-import cz.mazl.tul.bussines.Message;
+package cz.mazl.tul.bussines;
 
 import java.util.Date;
 
-public class SimpleMessageDTO implements Message {
+public class SimpleMessage implements Message {
 
     private String message;
     private Author author;
     private Date date;
+
+    public SimpleMessage(){
+    }
 
     @Override
     public String getMessage() {
@@ -34,7 +34,7 @@ public class SimpleMessageDTO implements Message {
         return date;
     }
 
-    public void setDate(Date data) {
-        this.date = data;
+    public void setDate(Date date) {
+        this.date = date;
     }
 }
