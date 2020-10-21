@@ -3,8 +3,6 @@ import SockJsClient from 'react-stomp';
 import Button from "@material-ui/core/Button/Button";
 import TextField from "@material-ui/core/TextField/TextField";
 import Grid from "@material-ui/core/Grid/Grid";
-import Skeleton from '@material-ui/lab/Skeleton';
-import Divider from "@material-ui/core/Divider/Divider";
 import Card from "@material-ui/core/Card/Card";
 import CardHeader from "@material-ui/core/CardHeader/CardHeader";
 import CardContent from "@material-ui/core/CardContent/CardContent";

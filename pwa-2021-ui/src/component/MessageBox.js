@@ -10,10 +10,9 @@ class MessageBox extends React.Component {
 
     render() {
         const message = this.props.message.message;
-        const author = this.props.author;
-        const messageAuthor = this.props.message.author.name;
-        const isMine = author !== messageAuthor;
-        const avatar = this.props.message.author.avatar;
+        const messageAuthor = this.props.message.author.authorFullName;
+        const isMine = this.props.message.mine;
+        const avatar = this.props.message.author.userAvatar;
         const startsSequence = (this.props.startSequence) ? this.props.startSequence : "start";
         const endsSequence = (this.props.endSequence) ? this.props.endSequence : "end";
         const showTimestamp = false;
