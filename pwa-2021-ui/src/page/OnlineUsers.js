@@ -20,7 +20,8 @@ class OnlineUsers extends Component {
     }
 
     onMessage(data) {
-        console.log(data);
+        UserContextHolder.onlineUsersHolder = data;
+        this.setState({users: data});
     }
 
     render() {
@@ -46,7 +47,6 @@ class OnlineUsers extends Component {
                 </Typography>
                 <Divider/>
                 <List>
-                    {onlineUserItems}
                 </List>
             </div>
         );
@@ -54,7 +54,9 @@ class OnlineUsers extends Component {
 
     getOnlineUserItems() {
         if(this.state.users === null || this.state.users === undefined) {
-            this.setState({users: UserContextHolder.onlineUsersHolder});
+            if(UserContextHolder.onlineUsersHolder !== null) {
+                this.setState({users: UserContextHolder.onlineUsersHolder});
+            }
             return (<div/>);
         }
         let users = this.state.users;
