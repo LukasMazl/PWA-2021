@@ -6,6 +6,7 @@ import java.util.List;
 
 public class HistoricalMessagesDTO {
     private String roomId;
+    private String roomTitle;
     private boolean sorted;
     private List<Message> messages;
 
@@ -31,5 +32,13 @@ public class HistoricalMessagesDTO {
 
     public void setMessages(List<Message> messages) {
         this.messages = messages;
+    }
+
+    public String getRoomTitle() {
+        return roomTitle;
+    }
+
+    public void setRoomTitle(String roomTitle) {
+        this.roomTitle = roomTitle;
     }
 }

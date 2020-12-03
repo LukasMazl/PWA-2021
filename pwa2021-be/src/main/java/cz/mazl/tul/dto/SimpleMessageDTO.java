@@ -9,6 +9,7 @@ public class SimpleMessageDTO implements Message {
 
     private String message;
     private Author author;
+    private String title;
     private Date date;
     private boolean mine;
 
@@ -39,11 +40,21 @@ public class SimpleMessageDTO implements Message {
         this.date = data;
     }
 
+    @Override
     public boolean isMine() {
         return mine;
     }
 
     public void setMine(boolean mine) {
         this.mine = mine;
+    }
+
+    @Override
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 }

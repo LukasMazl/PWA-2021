@@ -6,18 +6,19 @@ class ApiCaller {
     static REST_API_PREFIX = "/api/v1";
     static REST_API_ENDPOINT = ApiCaller.ORIGIN_URL + ApiCaller.REST_API_PREFIX;
 
+    static GET_USER_CONTEXT = "/user/context";
     static GET_LAST_MESSAGES_FROM_ROOM = ApiCaller.REST_API_ENDPOINT + "/room/messages";
     static SEND_MESSAGE_TO_ROOM = ApiCaller.REST_API_ENDPOINT + "/send";
 
     static getCall(url, data, callback, errorCallback, onResp) {
-        const keys = Object.keys(data);
-        console.log(data);
-        console.log(keys);
-        let callUrl = url + "?";
-        for(let key in keys) {
-            callUrl += keys[key] + "=" + data[keys[key]] + "&";
+        let callUrl = url;
+        if(data !== null) {
+            const keys = Object.keys(data);
+            callUrl = callUrl + "?";
+            for (let key in keys) {
+                callUrl += keys[key] + "=" + data[keys[key]] + "&";
+            }
         }
-        console.log(callUrl);
         this.call(callUrl, "GET", null, callback, errorCallback, onResp);
     }
 
@@ -35,11 +36,8 @@ class ApiCaller {
         };
 
         if(jsonData !== null) {
-            console.log(jsonData);
             request["body"] = jsonData;
-            console.log(request);
         }
-        console.log(request);
 
         fetch(url, request)
             .then(res => {

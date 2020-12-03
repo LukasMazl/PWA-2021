@@ -38,7 +38,7 @@
 
     <properties>
         <jdbc.oracle.version>11.2.0.3</jdbc.oracle.version>
-        <hibernate.version>5.2.14.Final</hibernate.version>
+        <hibernate.version>5.4.2.Final</hibernate.version>
         <spring.orm.version>4.3.26.RELEASE</spring.orm.version>
     </properties>
 
@@ -89,12 +89,18 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- PostgreSQL used in Staging and Production environment, e.g. on Heroku -->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.19</version>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.2</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${spring.orm.version}</version>
+        </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
@@ -244,6 +250,16 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.10.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-commons</artifactId>
+            <version>2.2.5.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>2.2.5.RELEASE</version>
         </dependency>
     </dependencies>
 

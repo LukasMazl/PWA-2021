@@ -2,8 +2,7 @@ import * as React from "react";
 //import moment from 'moment';
 import './Message.css';
 import Avatar from '@material-ui/core/Avatar';
-import Grid from "@material-ui/core/Grid/Grid";
-import Tooltip from "@material-ui/core/Tooltip/Tooltip";
+import UserContextHolder from "../holder/UserContextHolder";
 
 
 class MessageBox extends React.Component {
@@ -11,16 +10,15 @@ class MessageBox extends React.Component {
     render() {
         const message = this.props.message.message;
         const messageAuthor = this.props.message.author.authorFullName;
-        const isMine = this.props.message.mine;
+        const isMine = this.props.message.author.userId === UserContextHolder.userHolder.userId;
         const avatar = this.props.message.author.userAvatar;
         const startsSequence = (this.props.startSequence) ? this.props.startSequence : "start";
         const endsSequence = (this.props.endSequence) ? this.props.endSequence : "end";
         const showTimestamp = false;
-        // const friendlyTimestamp = moment(new Date()).format('LLLL');
         const friendlyTimestamp = "" + new Date();
-        return (
-            <div>
 
+        let messageRowForTooltip = this.getMessageRowForTooltip(messageAuthor, avatar, message, isMine, friendlyTimestamp);
+        return (
                 <div className={[
                     'message',
                     `${isMine ? 'mine' : ''}`,
@@ -32,28 +30,38 @@ class MessageBox extends React.Component {
                         <div className="timestamp">
                             {friendlyTimestamp}
                         </div>
+
+
                     }
-                    <div className="bubble-container">
-                        <Grid container
-                              direction="row"
-                              alignItems="center">
-                            <Grid>
-                                <Tooltip title={messageAuthor} aria-label="add">
-                                    <Avatar alt="Remy Sharp" src={avatar}>
-                                        B
-                                    </Avatar>
-                                </Tooltip>
-                            </Grid>
-                            <Grid>
-                                <div className="bubble" title={friendlyTimestamp}>
-                                    {message}
-                                </div>
-                            </Grid>
-                        </Grid>
-                    </div>
+                    {messageRowForTooltip}
                 </div>
-            </div>
         );
+    }
+
+    getMessageRowForTooltip(messageAuthor, avatar, message, mine, friendlyTimestamp) {
+        if (!mine) {
+            return (
+                <div className="bubble-container">
+
+                        <Avatar src={avatar} style={{"margin": "auto 0 auto 0"}}>
+                            B
+                        </Avatar>
+                        <div className="bubble" title={friendlyTimestamp}>
+                            {message}
+                        </div>
+                </div>
+            );
+        } else {
+            return (<div className="bubble-container">
+
+                    <div className="bubble">
+                        {message}
+                    </div>
+                    <Avatar src={avatar} style={{"margin": "auto 0 auto 0"}}>
+                        B
+                    </Avatar>
+            </div>);
+        }
     }
 }
 

@@ -11,6 +11,7 @@ import CardActions from "@material-ui/core/CardActions/CardActions";
 import MessageListViewer from "../../component/MessageListViewer";
 import ApiCaller from "../../api/ApiCaller";
 import GlobalConstant from "../../config/GlobalConstant";
+import UserAction from "../../action/UserAction"
 
 class ChatRoom extends React.Component {
 
@@ -31,17 +32,11 @@ class ChatRoom extends React.Component {
     }
 
     getLastDataForRoom(roomId) {
-        ApiCaller.getCall(
-            ApiCaller.GET_LAST_MESSAGES_FROM_ROOM,
-            {
-                "roomID": roomId
-            },
-            (res) => {
-                this.onGetMessage(res);
-            },
-            (res) => {
-                console.error(res);
-            });
+        UserAction.getLastDataForRoom(roomId, this.onGetMessage.bind(this));
+    }
+
+    sendMessage(roomId, value, onRes) {
+        UserAction.sendMessage(roomId, value, onRes);
     }
 
     renderTextForm(roomId) {
@@ -69,16 +64,9 @@ class ChatRoom extends React.Component {
                             color={"primary"}
                             onClick={(e) => {
                                 const value = this.messageBox.value;
-                                ApiCaller.call(ApiCaller.SEND_MESSAGE_TO_ROOM,
-                                    "POST",
-                                    {
-                                        "roomId": roomId,
-                                        "message": value
-                                    },
-                                    (resp) => {
-                                        this.messageBox.value = "";
-                                    }
-                                );
+                                this.sendMessage(roomId, value, () => {
+                                    this.messageBox.value = "";
+                                });
                             }}
                     >
                         Send
@@ -102,7 +90,7 @@ class ChatRoom extends React.Component {
             return (
                 <Card style={{marginTop: "20px"}}>
                     <CardHeader title={<Typography variant="body2" color="textSecondary" component="p">
-                        {roomId}
+                        {this.props.title}
                     </Typography>}/>
                     <CardContent>
                         <MessageListViewer messages={

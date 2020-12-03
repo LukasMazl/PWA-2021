@@ -21,8 +21,8 @@ public class SwaggerConfig {
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SPRING_WEB).apiInfo(new ApiInfo(
-                "DBA 2020",
-                "semestral work",
+                "PWA 2021",
+                "Semestral work",
                 "1.0.0",
                 null,
                 null,

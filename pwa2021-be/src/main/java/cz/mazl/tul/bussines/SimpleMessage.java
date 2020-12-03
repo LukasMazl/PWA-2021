@@ -5,8 +5,10 @@ import java.util.Date;
 public class SimpleMessage implements Message {
 
     private String message;
+    private String title;
     private Author author;
     private Date date;
+    private boolean mine;
 
     public SimpleMessage(){
     }
@@ -36,5 +38,23 @@ public class SimpleMessage implements Message {
 
     public void setDate(Date date) {
         this.date = date;
+    }
+
+    @Override
+    public boolean isMine() {
+        return mine;
+    }
+
+    public void setMine(boolean mine) {
+        this.mine = mine;
+    }
+
+    @Override
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 }

@@ -16,7 +16,6 @@
 .message .bubble-container {
     font-size: 14px;
     display: flex;
-    width: 500px;
 }
 
 .message.mine .bubble-container {
@@ -30,8 +29,6 @@
 
 .message.end .bubble-container .bubble {
     border-bottom-left-radius: 20px;
-    width: 400px;
-    height: auto;
     /* margin-bottom: 10px; */
 }
 

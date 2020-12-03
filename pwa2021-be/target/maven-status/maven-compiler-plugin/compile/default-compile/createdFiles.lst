@@ -1,8 +1,0 @@
-cz\mazl\tul\controller\RoomController.class
-cz\mazl\tul\config\MVCWebConfig.class
-cz\mazl\tul\config\SwaggerConfig.class
-cz\mazl\tul\controller\ChatController.class
-cz\mazl\tul\dto\ChatRoomDTO.class
-cz\mazl\tul\Application.class
-cz\mazl\tul\dto\SimpleMessageDTO.class
-cz\mazl\tul\config\WebSocketConfig.class

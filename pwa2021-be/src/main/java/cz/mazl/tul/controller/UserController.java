@@ -1,5 +1,9 @@
 package cz.mazl.tul.controller;
 
+import cz.mazl.tul.bussines.dto.UserDTO;
+import cz.mazl.tul.dto.UserDto;
+import cz.mazl.tul.service.message.MessageService;
+import cz.mazl.tul.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -11,18 +15,39 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     private SimpMessagingTemplate messageSender;
+    private UserService userService;
+    private MessageService messageService;
 
     @Autowired
-    public UserController(SimpMessagingTemplate messageSender) {
+    public UserController(SimpMessagingTemplate messageSender, UserService userService, MessageService messageService) {
         this.messageSender = messageSender;
+        this.userService = userService;
+        this.messageService = messageService;
     }
 
-    @GetMapping("/oidc-principal")
-    public OidcUser getOidcUserPrincipal(
+    @GetMapping("/user/context")
+    public UserDto getUserContext(
             @AuthenticationPrincipal OidcUser principal) {
+        UserDto userDto = new UserDto();
+        userDto.setFullName(principal.getFullName());
+        userDto.setUserId(principal.getEmail());
 
-        messageSender.convertAndSend("/topics/all", "ahoooj");
-        System.out.println(principal.getEmail());
-        return principal;
+        userService.createUser(prepareDTO(principal));
+        String lastRoomId = messageService.getLastRoomId(principal.getEmail());
+        userDto.setLastRoomId(lastRoomId);
+
+        return userDto;
     }
+
+
+    private UserDTO prepareDTO(OidcUser principal) {
+        UserDTO user = new UserDTO();
+        user.setUserId(principal.getEmail());
+        user.setAvatar(principal.getUserInfo().getPicture());
+        user.setUserName(principal.getUserInfo().getFullName());
+        return user;
+    }
+
+
+
 }
