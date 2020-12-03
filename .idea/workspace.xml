@@ -8,217 +8,17 @@
       <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/holder/UserContextHolder.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/HibernateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/props/DefaultChatRoomProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/props/HibernateProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/AbstractController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/OnlineUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/AuditEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/ChatRoomEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/MessageEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/listener/ApplicationListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/AuditRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/ChatroomRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/MessageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/ChatroomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/SimpleChatRoomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/SimpleUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/pwa-2021-ui.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/api/ApiCaller.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/api/ApiCaller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/component/Message.css" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/Message.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageListViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageListViewer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/SimpleAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/SimpleAuthor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/SimpleMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/SimpleMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/constants/ApplicationConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/constants/ApplicationConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/RoomController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/AuthorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/AuthorDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/HistoricalMessagesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/HistoricalMessagesDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/SimpleMessageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/SimpleMessageDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/MockMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/SimpleMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/img/background-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/precache-manifest.175cdc09277358d7160296b3d690d5f7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/css/main.3567368a.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/css/main.3567368a.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.b073fb4a.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.b073fb4a.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.b073fb4a.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.2f6c28f7.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.2f6c28f7.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/runtime-main.d550a0ed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/runtime-main.d550a0ed.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/application-heroku.properites" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/WEB-INF/pages/ahoj.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/pages/ahoj.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/precache-manifest.2dcc8e0bbe2b9359aee53fd9ec883477.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/css/main.5f361e03.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/css/main.5f361e03.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/js/2.681353ed.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/js/2.681353ed.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/js/2.681353ed.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/js/main.9282af99.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/js/main.9282af99.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/js/runtime-main.d550a0ed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/js/runtime-main.d550a0ed.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/media/logo.5d5d9eef.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/webapp/static/tst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/MVCWebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/MVCWebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/SwaggerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/WebSocketConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/cz/mazl/tul/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/cz/mazl/tul/config/MVCWebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/cz/mazl/tul/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/cz/mazl/tul/config/WebSocketConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/classes/cz/mazl/tul/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.10.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/classgraph-4.8.83.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/ecj-3.18.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.2.14.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.18.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.10.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.10.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.10.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.10.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.10.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.10.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.12.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.12.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/mapstruct-1.3.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-2.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-configuration-processor-2.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-validation-2.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-websocket-2.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-test-2.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-dao-1.2.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-hibernate-1.2.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-messaging-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-plugin-core-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-plugin-metadata-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/spring-websocket-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/springfox-core-3.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/springfox-data-rest-3.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/springfox-schema-3.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/springfox-spi-3.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/springfox-spring-web-3.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/springfox-spring-webflux-3.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/springfox-spring-webmvc-3.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/springfox-swagger-common-3.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/springfox-swagger-ui-3.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/springfox-swagger2-3.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/swagger-annotations-1.5.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/swagger-annotations-2.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/swagger-models-1.5.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/tomcat-annotations-api-9.0.31.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-9.0.31.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-9.0.31.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-jasper-9.0.31.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-9.0.31.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/WEB-INF/pages/ahoj.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/pages/ahoj.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/precache-manifest.2dcc8e0bbe2b9359aee53fd9ec883477.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/static/css/main.5f361e03.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/static/css/main.5f361e03.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/static/js/2.681353ed.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/static/js/2.681353ed.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/static/js/2.681353ed.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/static/js/main.9282af99.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/static/js/main.9282af99.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/static/js/runtime-main.d550a0ed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/static/js/runtime-main.d550a0ed.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/pwa2021-be-1.0-SNAPSHOT/static/media/logo.5d5d9eef.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/webapp-runner.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -341,7 +141,7 @@
         <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -370,8 +170,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -380,7 +180,7 @@
         <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="245">
-              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -392,7 +192,7 @@
         <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -416,7 +216,7 @@
         <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/ChatController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1164,7 +964,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606986253997" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606987324089" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pwa2021-be/src/main/webapp/WEB-INF/pages/ahoj.jsp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -1251,12 +1051,12 @@
       <workItem from="1603129985861" duration="12155000" />
       <workItem from="1603283488550" duration="12446000" />
       <workItem from="1604497173119" duration="66000" />
-      <workItem from="1606828857267" duration="38839000" />
+      <workItem from="1606828857267" duration="39731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99911000" />
+    <option name="totallyTimeSpent" value="100803000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1271,7 +1071,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1289,13 +1089,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32827735" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3206934" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3206934" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32719395" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3290461" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.38786566" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.38786566" />
       <window_info anchor="bottom" id="TypeScript" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1732,7 +1532,7 @@
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/ChatController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1752,7 +1552,7 @@
     <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -1779,7 +1579,7 @@
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1796,7 +1596,7 @@
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1815,8 +1615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
