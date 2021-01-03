@@ -8,21 +8,38 @@
       <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/holder/UserContextHolder.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/JobConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/PrepareChatRoomDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/CreateNewRoomDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/CreateRoomDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/PreparedChatRoomDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/pwa-2021-ui.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/api/ApiCaller.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/api/ApiCaller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/component/Message.css" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/Message.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageListViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageListViewer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/component/user/OnlineUserItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/user/OnlineUserItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/MVCWebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/MVCWebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/WebSocketConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/AuditRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/AuditRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/ChatroomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/ChatroomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/SimpleChatRoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/SimpleChatRoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/SimpleUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/SimpleUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/service-worker.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,16 +56,22 @@
     <session id="1147216296">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.122" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.175" value="1" />
           <entry key="project.open.time.188" value="1" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.87" value="1" />
+          <entry key="project.open.time.9" value="1" />
           <entry key="project.open.time.90" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -57,8 +80,8 @@
           <entry key="css" value="49" />
           <entry key="dummy" value="11" />
           <entry key="gitignore" value="26" />
-          <entry key="java" value="10140" />
-          <entry key="js" value="7267" />
+          <entry key="java" value="12204" />
+          <entry key="js" value="8116" />
           <entry key="json" value="52" />
           <entry key="jsp" value="20" />
           <entry key="map" value="1" />
@@ -70,10 +93,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="49" />
-          <entry key="JAVA" value="10140" />
+          <entry key="JAVA" value="12204" />
           <entry key="JSON" value="52" />
           <entry key="JSP" value="20" />
-          <entry key="JavaScript" value="7267" />
+          <entry key="JavaScript" value="8116" />
           <entry key="PLAIN_TEXT" value="181" />
           <entry key="Properties" value="286" />
           <entry key="SourceMap" value="1" />
@@ -84,12 +107,12 @@
         <counts>
           <entry key="Procfile" value="1" />
           <entry key="class" value="6" />
-          <entry key="css" value="10" />
+          <entry key="css" value="11" />
           <entry key="gitignore" value="4" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="218" />
-          <entry key="js" value="66" />
+          <entry key="java" value="258" />
+          <entry key="js" value="81" />
           <entry key="json" value="2" />
           <entry key="jsp" value="3" />
           <entry key="lock" value="2" />
@@ -105,13 +128,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="CSS" value="10" />
+          <entry key="CSS" value="11" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="218" />
+          <entry key="JAVA" value="258" />
           <entry key="JSON" value="2" />
           <entry key="JSP" value="3" />
-          <entry key="JavaScript" value="66" />
+          <entry key="JavaScript" value="81" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Properties" value="8" />
@@ -130,31 +153,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/SimpleUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/SimpleChatRoomService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="357">
+              <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,58 +165,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/OnlineUser.java">
+        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="395">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js">
+        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="-85">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/RoomController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="324">
+              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="243" column="48" lean-forward="true" selection-start-line="243" selection-start-column="48" selection-end-line="243" selection-end-column="48" />
+            <state relative-caret-position="119">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js">
+        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/Message.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/MessageListViewer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="343">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="513">
+              <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/SimpleUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -223,13 +239,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/listener/ApplicationListener.java">
+        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/PrepareChatRoomDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -268,10 +281,19 @@
       <find>findChatroom</find>
       <find>HistoricalMessagesDTO</find>
       <find>spring-tx</find>
+      <find>sendOnlineUserBrowcast</find>
+      <find>deleteByUserIdAndSessionId</find>
+      <find>logoutUserLogin</find>
+      <find>OnlineUserItem</find>
+      <find>RoomCon</find>
+      <find>getSetUserHoldergetSetUserHolder</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pwa-2021-ui" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -283,17 +305,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pwa-2021-ui/src/component/Message.css" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/MockMessageService.java" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/Author.java" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/AuthorDto.java" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/SimpleAuthor.java" />
-        <option value="$PROJECT_DIR$/pwa-2021-ui/src/action/UserAction.js" />
-        <option value="$PROJECT_DIR$/pwa-2021-ui/src/api/ApiCaller.js" />
         <option value="$PROJECT_DIR$/pwa-2021-ui/pom.xml" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js" />
-        <option value="$PROJECT_DIR$/pwa-2021-ui/src/component/user/OnlineUserItem.js" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/JpaConfig.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/HibernateProperties.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/HibernateConfig.java" />
@@ -302,38 +316,46 @@
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/AbstractController.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/ChatroomRepository.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/listener/WebSocketListener.java" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/ChatController.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/UserDto.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/MessageService.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/MessageRepository.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/UserEntity.java" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/ChatroomService.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/props/DefaultChatRoomProperties.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/MessageEntity.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/ChatRoomEntity.java" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/SimpleChatRoomService.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/Message.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/HistoricalMessagesDTO.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/SimpleMessageDTO.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/SimpleMessage.java" />
-        <option value="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" />
-        <option value="$PROJECT_DIR$/pwa-2021-ui/src/App.js" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/SimpleMessageService.java" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/RoomController.java" />
         <option value="$PROJECT_DIR$/pwa-2021-ui/src/holder/UserContextHolder.js" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/constants/ApplicationConstant.java" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/UserService.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/AuditEntity.java" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/AuditRepository.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/OnlineUser.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/listener/ApplicationListener.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/pom.xml" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/ChatController.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/JobConfiguration.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/UserService.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/AuditRepository.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/CreateRoomDto.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/CreateRoomDto.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/CreateNewRoomDto.java" />
+        <option value="$PROJECT_DIR$/pwa-2021-ui/src/component/user/OnlineUserItem.js" />
+        <option value="$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js" />
+        <option value="$PROJECT_DIR$/pwa-2021-ui/src/api/ApiCaller.js" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/PrepareChatRoomDto.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/RoomController.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/ChatroomService.java" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/PreparedChatRoomDto.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/SimpleUserService.java" />
-        <option value="$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/SimpleChatRoomService.java" />
+        <option value="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" />
+        <option value="$PROJECT_DIR$/pwa-2021-ui/src/App.js" />
         <option value="$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js" />
-        <option value="$PROJECT_DIR$/pwa2021-be/pom.xml" />
       </list>
     </option>
   </component>
@@ -376,6 +398,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="pwa2021-be" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pwa2021-be" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -699,10 +726,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1696" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -710,7 +737,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -760,48 +787,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="bussines" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="props" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -811,58 +796,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -872,39 +805,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="room" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tul" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
               <item name="pwa-2021-ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -912,6 +817,13 @@
               <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
               <item name="pwa-2021-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
+              <item name="pwa-2021-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
@@ -935,25 +847,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa-2021-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="holder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa-2021-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -963,7 +861,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606991199277" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609714804390" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pwa2021-be/src/main/webapp/WEB-INF/pages/ahoj.jsp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -980,10 +878,10 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cz.mazl.tul.controller" />
+      <recent name="cz.mazl.tul.dto" />
       <recent name="cz.mazl.tul.bussines.dto" />
       <recent name="cz.mazl.tul.entity" />
       <recent name="cz.mazl.tul.bussines" />
-      <recent name="cz.mazl.tul.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lukas-Z87\Desktop\intellij\pwa2021\pwa-2021-ui\src\api" />
@@ -1050,12 +948,18 @@
       <workItem from="1603129985861" duration="12155000" />
       <workItem from="1603283488550" duration="12446000" />
       <workItem from="1604497173119" duration="66000" />
-      <workItem from="1606828857267" duration="42795000" />
+      <workItem from="1606828857267" duration="44093000" />
+      <workItem from="1607440680509" duration="1113000" />
+      <workItem from="1607521091362" duration="520000" />
+      <workItem from="1608133164949" duration="94000" />
+      <workItem from="1609583970531" duration="1096000" />
+      <workItem from="1609685777476" duration="4011000" />
+      <workItem from="1609696244173" duration="8351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103867000" />
+    <option name="totallyTimeSpent" value="120350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1067,10 +971,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30623472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1082,26 +986,26 @@
       <window_info id="JavaEE:App" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3279743" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32827735" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3206934" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32047158" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719395" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32690248" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3290461" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.6738895" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.3869239" />
       <window_info anchor="bottom" id="TypeScript" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1945629" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.19437653" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1119,141 +1023,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/MVCWebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.2.4.RELEASE/spring-orm-5.2.4.RELEASE.jar!/org/springframework/orm/hibernate5/LocalSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="182" column="16" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="16" />
-          <folding>
-            <element signature="e#6699#6700#0" expanded="true" />
-            <element signature="e#6751#6752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/JpaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/HibernateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="81" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/dto/UserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/AbstractController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.31/tomcat-embed-core-9.0.31.jar!/org/apache/catalina/core/StandardEngineValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/MessageEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/ChatRoomEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/ChatRoomDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1268,9 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1278,33 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/ChatroomService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,53 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-          <folding>
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-          <folding>
-            <element signature="e#63#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/MessageListViewer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1373,9 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1383,26 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/SimpleMessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1410,19 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/holder/UserContextHolder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1440,47 +1100,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/constants/ApplicationConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/UserDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/user/OnlineUserItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/AuditEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,30 +1114,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/AuditRepository.java">
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/OnlineUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/holder/UserContextHolder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4131">
+          <caret line="243" column="48" selection-start-line="243" selection-start-column="48" selection-end-line="243" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/listener/ApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/RoomController.java">
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/JobConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/AuditEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/AuditRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/ChatController.java">
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/ChatRoomDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/CreateRoomDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/constants/ApplicationConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/AbstractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/api/ApiCaller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/PreparedChatRoomDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/CreateNewRoomDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/ChatroomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1523,96 +1294,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="503">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1414#1415#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/OnlineUser.java">
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/ChatController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="195">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/listener/ApplicationListener.java">
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/SimpleMessageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/UserService.java">
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/user/OnlineUserItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="187">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/action/UserAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/PrepareChatRoomDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/SimpleChatRoomService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="357">
+          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/Message.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/MessageListViewer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="343">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/SimpleUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+        <state relative-caret-position="343">
+          <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js">
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="395">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/RoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="243" column="48" lean-forward="true" selection-start-line="243" selection-start-column="48" selection-end-line="243" selection-end-column="48" />
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>

@@ -11,6 +11,8 @@ import org.springframework.security.oauth2.core.oidc.user.OidcUser;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 public class UserController {
 
@@ -39,6 +41,10 @@ public class UserController {
         return userDto;
     }
 
+    @GetMapping("/user/available")
+    public List<UserDto> getAvailableUsers() {
+        return userService.avaibleUsers();
+    }
 
     private UserDTO prepareDTO(OidcUser principal) {
         UserDTO user = new UserDTO();
@@ -47,7 +53,5 @@ public class UserController {
         user.setUserName(principal.getUserInfo().getFullName());
         return user;
     }
-
-
 
 }

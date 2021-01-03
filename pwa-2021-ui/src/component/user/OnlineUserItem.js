@@ -24,8 +24,11 @@ class OnlineUserItem extends Component {
                                 variant="body2"
                                 color="textPrimary"
                             >
-                                <Button variant="contained" color="primary" href="#contained-buttons">
-                                    Link
+                                <Button variant="contained" color="primary" href="#contained-buttons" onClick={
+                                    (e) =>
+                                    {this.props.onClick(this.props.user.userId)}
+                                }>
+                                    Send Message
                                 </Button>
                             </Typography>
                         </React.Fragment>

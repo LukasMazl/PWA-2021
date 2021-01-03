@@ -52,6 +52,10 @@ class OnlineUsers extends Component {
         );
     }
 
+    onSendButtonClicked(userId) {
+        this.props.onSendButtomClicked(userId);
+    }
+
     getOnlineUserItems() {
         if(this.state.users === null || this.state.users === undefined) {
             if(UserContextHolder.onlineUsersHolder !== null) {
@@ -62,8 +66,13 @@ class OnlineUsers extends Component {
         let users = this.state.users;
 
         let result = users.map((value, index) => {
-            return (<OnlineUserItem user={value}/>);
-            });
+            console.log(value.userId);
+            if(value.userId !== UserContextHolder.onlineUsersHolder) {
+                return (<OnlineUserItem user={value} onClick={this.onSendButtonClicked.bind(this)}/>);
+            } else {
+                return(<div/>);
+            }
+        });
         return result;
     }
 }

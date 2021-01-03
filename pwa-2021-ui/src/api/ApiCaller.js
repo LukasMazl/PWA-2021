@@ -7,6 +7,7 @@ class ApiCaller {
     static REST_API_ENDPOINT = ApiCaller.ORIGIN_URL + ApiCaller.REST_API_PREFIX;
 
     static GET_USER_CONTEXT = "/user/context";
+    static PREPARE_ROOM = ApiCaller.REST_API_PREFIX + "/room/prepare";
     static GET_LAST_MESSAGES_FROM_ROOM = ApiCaller.REST_API_ENDPOINT + "/room/messages";
     static SEND_MESSAGE_TO_ROOM = ApiCaller.REST_API_ENDPOINT + "/send";
 

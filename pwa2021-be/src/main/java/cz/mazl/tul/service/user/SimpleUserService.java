@@ -3,6 +3,7 @@ package cz.mazl.tul.service.user;
 import cz.mazl.tul.bussines.dto.UserDTO;
 import cz.mazl.tul.config.props.DefaultChatRoomProperties;
 import cz.mazl.tul.dto.OnlineUser;
+import cz.mazl.tul.dto.UserDto;
 import cz.mazl.tul.entity.AuditEntity;
 import cz.mazl.tul.entity.ChatRoomEntity;
 import cz.mazl.tul.entity.UserEntity;
@@ -12,6 +13,7 @@ import cz.mazl.tul.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -78,6 +80,14 @@ public class SimpleUserService implements UserService {
         auditRepository.save(auditEntity);
     }
 
+
+    @Override
+    @Transactional
+    public void removeOldAudit() {
+        //FIXME udelat pres konfiguraci
+        auditRepository.deleteByDateAfter(new Date());
+    }
+
     @Override
     public void logoutUserLogin(String userId, String sessionId) {
         auditRepository.deleteByUserIdAndSessionId(userId, sessionId);
@@ -104,5 +114,19 @@ public class SimpleUserService implements UserService {
             onlineUsers.add(onlineUser);
         }
         return onlineUsers;
+    }
+
+
+    @Override
+    public List<UserDto> avaibleUsers() {
+        Iterable<UserEntity> userEntities = userRepository.findAll();
+        List<UserDto> userDtos = new ArrayList<>();
+        for(UserEntity userEntity : userEntities) {
+            UserDto userDto = new UserDto();
+            userDto.setUserId(userEntity.getUserId());
+            userDto.setFullName(userEntity.getName());
+            userDtos.add(userDto);
+        }
+        return userDtos;
     }
 }

@@ -32,6 +32,13 @@ public class ChatController {
     @PostMapping(API_PREFIX + "/send")
     public SimpleMessageDTO sendMessage(@AuthenticationPrincipal OidcUser principal,
                                         @RequestBody SendMessageDTO sendMessageDTO) {
+        SimpleMessageDTO simpleMessageDTO = createSimpleMessageDTO(principal, sendMessageDTO);
+        messageService.saveMessage(simpleMessageDTO, sendMessageDTO.getRoomId());
+        messageSender.convertAndSend("/topics/room/" + sendMessageDTO.getRoomId(), simpleMessageDTO);
+        return simpleMessageDTO;
+    }
+
+    private SimpleMessageDTO createSimpleMessageDTO(OidcUser principal, SendMessageDTO sendMessageDTO) {
         SimpleMessageDTO simpleMessageDTO = new SimpleMessageDTO();
         AuthorDto authorDto = new AuthorDto();
         authorDto.setAvatar(principal.getPicture());
@@ -40,8 +47,6 @@ public class ChatController {
         simpleMessageDTO.setAuthor(authorDto);
         simpleMessageDTO.setDate(new Date());
         simpleMessageDTO.setMessage(sendMessageDTO.getMessage());
-        messageService.saveMessage(simpleMessageDTO, sendMessageDTO.getRoomId());
-        messageSender.convertAndSend("/topics/room/" + sendMessageDTO.getRoomId(), simpleMessageDTO);
         return simpleMessageDTO;
     }
 }

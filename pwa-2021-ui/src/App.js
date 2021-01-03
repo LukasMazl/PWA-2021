@@ -11,6 +11,7 @@ import IconButton from "@material-ui/core/IconButton/IconButton";
 import Typography from "@material-ui/core/Typography/Typography";
 import Button from "@material-ui/core/Button/Button";
 import OnlineUsers from "./page/OnlineUsers";
+import ApiCaller from "./api/ApiCaller";
 
 class App extends Component {
     constructor(props) {
@@ -20,6 +21,11 @@ class App extends Component {
             roomId: null,
             roomTitle: null
         };
+        this.chatRoom = null;
+    }
+
+    shouldComponentUpdate(nextProps, nextState, nextContext) {
+        return true;
     }
 
     render() {
@@ -41,21 +47,32 @@ class App extends Component {
                         container
                         direction="row"
                         justify="space-between"
+                        style={{"padding": "20px"}}
                     >
                         <Grid alignItems="center" xs={3}>
                             <Paper>
-                                <OnlineUsers/>
+                                <OnlineUsers onSendButtomClicked={this.prepareRoomForUser.bind(this)}/>
                             </Paper>
                         </Grid>
 
                         <Grid alignItems="center" xs={6}>
-                            <ChatRoom roomId={this.state.roomId} title={this.state.roomTitle}/>
+                            <ChatRoom roomId={this.state.roomId} title={this.state.roomTitle} ref={(e) => {this.chatRoom = e}}/>
                         </Grid>
 
                     </Grid>
                 </div>
             );
         }
+    }
+
+    prepareRoomForUser(userId) {
+        ApiCaller.call(ApiCaller.PREPARE_ROOM, "POST", {"userId": userId},
+            (res) => {
+                console.log(res.roomId);
+                this.setState({roomId: res.roomId}, () => {
+                    this.chatRoom.changeRoom(this.state.roomId)
+                });
+            });
     }
 
     getSetUserHolder(res) {

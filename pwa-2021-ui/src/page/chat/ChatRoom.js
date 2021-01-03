@@ -31,6 +31,14 @@ class ChatRoom extends React.Component {
         return (<div/>);
     }
 
+    changeRoom(roomId) {
+        this.getLastDataForRoom(roomId);
+    }
+
+    shouldComponentUpdate(nextProps, nextState, nextContext) {
+        return true;
+    }
+
     getLastDataForRoom(roomId) {
         UserAction.getLastDataForRoom(roomId, this.onGetMessage.bind(this));
     }
