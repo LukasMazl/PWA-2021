@@ -1,5 +1,5 @@
 class GlobalConstant {
-    static HTTP_PROTOCOL = "http://";
+    static HTTP_PROTOCOL = "https://";
     static DOMAIN_NAME = "pwa-2021.herokuapp.com";
 
     static WEB_SOCKET_URL_SUFFIX = "/ws";
