@@ -3,10 +3,6 @@ import SockJsClient from "react-stomp";
 import GlobalConstant from "../config/GlobalConstant";
 import React from "react";
 import List from "@material-ui/core/List/List";
-import ListItem from "@material-ui/core/ListItem/ListItem";
-import ListItemAvatar from "@material-ui/core/ListItemAvatar/ListItemAvatar";
-import Avatar from "@material-ui/core/Avatar/Avatar";
-import ListItemText from "@material-ui/core/ListItemText/ListItemText";
 import Typography from "@material-ui/core/Typography/Typography";
 import Divider from "@material-ui/core/Divider/Divider";
 import OnlineUserItem from "../component/user/OnlineUserItem";
@@ -34,20 +30,14 @@ class OnlineUsers extends Component {
                                   this.clientRef = client
                               }}/>
                 <Typography variant="h4" component="h4">
-                   Online users
+                   Users
                 </Typography>
                 <Divider/>
                 <List>
                     {onlineUserItems}
                 </List>
                 <Divider/>
-                <Divider/>
-                <Typography variant="h4" component="h4">
-                    My rooms
-                </Typography>
-                <Divider/>
-                <List>
-                </List>
+
             </div>
         );
     }
@@ -66,7 +56,6 @@ class OnlineUsers extends Component {
         let users = this.state.users;
 
         let result = users.map((value, index) => {
-            console.log(value.userId);
             if(value.userId !== UserContextHolder.onlineUsersHolder) {
                 return (<OnlineUserItem user={value} onClick={this.onSendButtonClicked.bind(this)}/>);
             } else {
