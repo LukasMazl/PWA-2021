@@ -18,9 +18,7 @@ class OnlineUsers extends Component {
 
     onMessage(data) {
         UserContextHolder.onlineUsersHolder = data;
-        console.log(data);
         let onlineUser = this.prepareUsers(data);
-        console.log(onlineUser)
         this.setState({users: onlineUser});
     }
 
@@ -40,17 +38,20 @@ class OnlineUsers extends Component {
         if(onlineUser !== null && onlineUser !== undefined) {
             for(let userIndex in onlineUser) {
                 let user = onlineUser[userIndex];
-                console.log(user);
                 let foundUserIndex = this.findUserIndex(user.userId, users);
 
                 if(foundUserIndex == -1) {
-                    user[foundUserIndex].isOnline = true;
-                    users.push(user);
+                    user.isOnline = true;
+                    users.push({
+                        userId: user[userIndex].userId,
+                        isOnline: true,
+                        userName: user[userIndex].userName,
+                        avatar: user[userIndex].avatar}
+                        );
                 } else {
                     let inStateUser = users[foundUserIndex];
                     inStateUser.isOnline = true;
                 }
-                console.log(users);
             }
             return users;
         }
