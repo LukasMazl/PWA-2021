@@ -1,12 +1,17 @@
 package cz.mazl.tul.service.room;
 
+import cz.mazl.tul.bussines.Message;
+import cz.mazl.tul.bussines.SimpleMessage;
 import cz.mazl.tul.config.props.DefaultChatRoomProperties;
 import cz.mazl.tul.dto.ChatRoomDTO;
+import cz.mazl.tul.dto.HistoricalMessagesDTO;
 import cz.mazl.tul.dto.PreparedChatRoomDto;
 import cz.mazl.tul.entity.ChatRoomEntity;
+import cz.mazl.tul.entity.MessageEntity;
 import cz.mazl.tul.entity.UserEntity;
 import cz.mazl.tul.repository.ChatroomRepository;
 import cz.mazl.tul.repository.UserRepository;
+import cz.mazl.tul.service.message.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -19,14 +24,17 @@ public class SimpleChatRoomService implements ChatroomService {
     private DefaultChatRoomProperties defaultChatRoomProperties;
     private ChatroomRepository chatroomRepository;
     private UserRepository userRepository;
+    private MessageService messageService;
 
     @Autowired
     public SimpleChatRoomService(ChatroomRepository chatroomRepository,
                                  DefaultChatRoomProperties defaultChatRoomProperties,
-                                 UserRepository userRepository) {
+                                 UserRepository userRepository,
+                                 MessageService messageService) {
         this.chatroomRepository = chatroomRepository;
         this.defaultChatRoomProperties = defaultChatRoomProperties;
         this.userRepository = userRepository;
+        this.messageService = messageService;
     }
 
     @Override
@@ -77,18 +85,51 @@ public class SimpleChatRoomService implements ChatroomService {
     @Override
     public PreparedChatRoomDto prepareRoom(String authorId, String userIdToChat) {
         UserEntity authorEntity = userRepository.findByUserId(authorId);
+        UserEntity userForChat = userRepository.findByUserId(userIdToChat);
+        if(userForChat == null) {
+            throw new IllegalArgumentException("User " + userIdToChat + " for chatting does not exist.");
+        }
 
         Set<ChatRoomEntity> authorChatRoomEntities = authorEntity.getChatrooms();
         for(ChatRoomEntity chatRoomEntity : authorChatRoomEntities) {
             if(chatRoomEntity.getChatRoomId().compareTo(defaultChatRoomProperties.getRoomId()) != 0
                     && chatRoomEntity.getUserEntities().size() == 2) {
                 for(UserEntity userInRomm : chatRoomEntity.getUserEntities()) {
-                    if(userInRomm.getUserId().compareTo(userIdToChat) == 0)
-                    return new PreparedChatRoomDto(chatRoomEntity.getChatRoomId());
+                    if(userInRomm.getUserId().compareTo(userIdToChat) == 0) {
+                        return prepareRoomDto(chatRoomEntity, authorId);
+                    }
                 }
             }
         }
 
-        return new PreparedChatRoomDto(createNewRoom(authorId, "", Arrays.asList(userIdToChat)));
+        String roomId = createNewRoom(authorId, "", Arrays.asList(userIdToChat));
+
+        return new PreparedChatRoomDto();
     }
+
+    private PreparedChatRoomDto prepareRoomDto(ChatRoomEntity chatRoomEntity, String authorId) {
+        PreparedChatRoomDto preparedChatRoomDto = new PreparedChatRoomDto();
+        preparedChatRoomDto.setRoomId(chatRoomEntity.getChatRoomId());
+        preparedChatRoomDto.setRoomTitle(prepareChatRoomTitle(chatRoomEntity));
+        preparedChatRoomDto.setHistoricalMessagesDTO(convertToHistoricalMessage(chatRoomEntity, authorId));
+        return preparedChatRoomDto;
+    }
+
+    private String prepareChatRoomTitle(ChatRoomEntity chatRoomEntity) {
+        StringBuilder titleStringBuilder = new StringBuilder();
+        for(UserEntity userEntity: chatRoomEntity.getUserEntities()) {
+            titleStringBuilder.append(userEntity.getName());
+            titleStringBuilder.append(", ");
+        }
+        return titleStringBuilder.substring(0, titleStringBuilder.length() - 2);
+    }
+
+    private HistoricalMessagesDTO convertToHistoricalMessage(ChatRoomEntity chatRoomEntity, String authorId) {
+        HistoricalMessagesDTO historicalMessagesDTO = new HistoricalMessagesDTO();
+        historicalMessagesDTO.setSorted(true);
+        historicalMessagesDTO.setRoomId(chatRoomEntity.getChatRoomId());
+        historicalMessagesDTO.setMessages(messageService.getAllMessageForRoom(chatRoomEntity.getChatRoomId(),authorId));
+        return historicalMessagesDTO;
+    }
+
 }

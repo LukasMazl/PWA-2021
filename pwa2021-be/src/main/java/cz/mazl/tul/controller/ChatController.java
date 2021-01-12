@@ -33,8 +33,8 @@ public class ChatController {
     public SimpleMessageDTO sendMessage(@AuthenticationPrincipal OidcUser principal,
                                         @RequestBody SendMessageDTO sendMessageDTO) {
         SimpleMessageDTO simpleMessageDTO = createSimpleMessageDTO(principal, sendMessageDTO);
-        messageService.saveMessage(simpleMessageDTO, sendMessageDTO.getRoomId());
         messageSender.convertAndSend("/topics/room/" + sendMessageDTO.getRoomId(), simpleMessageDTO);
+        messageService.saveMessage(simpleMessageDTO, sendMessageDTO.getRoomId());
         return simpleMessageDTO;
     }
 

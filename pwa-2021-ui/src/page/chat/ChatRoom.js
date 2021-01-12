@@ -17,9 +17,11 @@ class ChatRoom extends React.Component {
 
     constructor(props) {
         super(props);
+        console.log(props);
         this.state = {
-            isLoaded: false,
-            messages: []
+            roomTittle: props.title,
+            isLoaded: props.messages !== undefined,
+            messages: props.messages
         };
         this.clientRef = null;
         this.messageList = null;
@@ -31,16 +33,23 @@ class ChatRoom extends React.Component {
         return (<div/>);
     }
 
-    changeRoom(roomId) {
-        this.getLastDataForRoom(roomId);
+    changeRoom(roomId, title, messages) {
+        this.getLastDataForRoom(roomId, title, messages);
     }
 
     shouldComponentUpdate(nextProps, nextState, nextContext) {
         return true;
     }
 
-    getLastDataForRoom(roomId) {
-        UserAction.getLastDataForRoom(roomId, this.onGetMessage.bind(this));
+    getLastDataForRoom(roomId, title, messages) {
+        if(messages === null || messages ===undefined) {
+            UserAction.getLastDataForRoom(roomId, this.onGetMessage.bind(this));
+        } else {
+            this.setState({
+                messages: messages,
+                isLoaded: true
+            });
+        }
     }
 
     sendMessage(roomId, value, onRes) {
@@ -86,7 +95,7 @@ class ChatRoom extends React.Component {
 
     onMessage(message) {
         const messageList = this.state.messages;
-        messageList.push(message);
+        messageList.unshift(message);
         this.setState({messages: messageList});
     }
 
@@ -97,9 +106,11 @@ class ChatRoom extends React.Component {
         } else {
             return (
                 <Card style={{marginTop: "20px"}}>
-                    <CardHeader title={<Typography variant="body2" color="textSecondary" component="p">
-                        {this.props.roomTitle}
-                    </Typography>}/>
+                    <CardHeader title={
+                        <Typography variant="body2" color="textSecondary" component="p">
+                            {this.state.roomTittle}
+                        </Typography>
+                    }/>
                     <CardContent>
                         <MessageListViewer messages={
                             this.state.messages
@@ -124,7 +135,8 @@ class ChatRoom extends React.Component {
         const messages = res.messages;
         this.setState({
             messages: messages,
-            isLoaded: true
+            isLoaded: true,
+            roomTittle: res.roomTitle
         });
     }
 }

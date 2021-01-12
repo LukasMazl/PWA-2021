@@ -25,7 +25,7 @@ public class ApplicationListener {
     }
 
     @EventListener(SessionConnectEvent.class)
-    public void handleWebsocketConnectListner(SessionConnectEvent event) {
+    public void handleWebsocketConnectListener(SessionConnectEvent event) {
         if (event.getUser() instanceof OAuth2AuthenticationToken) {
             OAuth2AuthenticationToken oAuth2AuthenticationToken = (OAuth2AuthenticationToken) event.getUser();
             String userId = (String) oAuth2AuthenticationToken.getPrincipal().getAttributes().get(PARAM_EMAIL);
@@ -33,17 +33,6 @@ public class ApplicationListener {
             userService.auditUserLogin(userId, sessionId);
         }
 
-        userService.sendOnlineUserBrowcast();
-    }
-
-    @EventListener(SessionDisconnectEvent.class)
-    public void handleWebsocketDisconnectListner(SessionDisconnectEvent event) {
-        if (event.getUser() instanceof OAuth2AuthenticationToken) {
-            OAuth2AuthenticationToken oAuth2AuthenticationToken = (OAuth2AuthenticationToken) event.getUser();
-            String userId = (String) oAuth2AuthenticationToken.getPrincipal().getAttributes().get(PARAM_EMAIL);
-            String sessionId = oAuth2AuthenticationToken.getName();
-            userService.logoutUserLogin(userId, sessionId);
-        }
         userService.sendOnlineUserBrowcast();
     }
 

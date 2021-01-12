@@ -11,11 +11,13 @@ import cz.mazl.tul.entity.UserEntity;
 import cz.mazl.tul.repository.ChatroomRepository;
 import cz.mazl.tul.repository.MessageRepository;
 import cz.mazl.tul.repository.UserRepository;
+import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSourceResolvable;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
@@ -82,7 +84,7 @@ public class SimpleMessageService implements MessageService {
         for(MessageEntity messageEntity: messageEntities) {
             UserEntity author = messageEntity.getAuthor();
             SimpleMessage simpleMessage = new SimpleMessage();
-            simpleMessage.setTitle(prepareChatRoomTitle(chatRoomEntity));
+            simpleMessage.setTitle(prepareChatRoomTitle(chatRoomEntity, userId));
             simpleMessage.setDate(messageEntity.getCreated());
             simpleMessage.setMine(messageEntity.getAuthor().getUserId().compareTo(userId) == 0);
             simpleMessage.setMessage(messageEntity.getMessage());
@@ -93,16 +95,20 @@ public class SimpleMessageService implements MessageService {
             simpleMessage.setAuthor(simpleAuthor);
             messages.add(simpleMessage);
         }
+
+        Collections.sort(messages);
         return messages;
     }
 
-    private String prepareChatRoomTitle(ChatRoomEntity chatRoomEntity) {
+    private String prepareChatRoomTitle(ChatRoomEntity chatRoomEntity, String userId) {
         StringBuilder titleStringBuilder = new StringBuilder();
         for(UserEntity userEntity: chatRoomEntity.getUserEntities()) {
-            titleStringBuilder.append(userEntity.getName());
-            titleStringBuilder.append(", ");
+            if(userEntity.getUserId().compareTo(userId) != 0) {
+                titleStringBuilder.append(userEntity.getName());
+                titleStringBuilder.append(", ");
+            }
         }
-        return titleStringBuilder.substring(0, titleStringBuilder.length() - 3);
+        return titleStringBuilder.substring(0, titleStringBuilder.length() - 2);
     }
 
     @Override

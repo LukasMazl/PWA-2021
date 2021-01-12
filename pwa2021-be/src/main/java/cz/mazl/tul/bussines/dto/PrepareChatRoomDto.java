@@ -1,4 +1,4 @@
-package cz.mazl.tul.controller;
+package cz.mazl.tul.bussines.dto;
 
 public class PrepareChatRoomDto {
 

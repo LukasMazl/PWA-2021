@@ -19,7 +19,8 @@ class App extends Component {
         this.state = {
             isReady: false,
             roomId: null,
-            roomTitle: null
+            roomTitle: undefined,
+            messages: undefined
         };
         this.chatRoom = null;
     }
@@ -56,7 +57,7 @@ class App extends Component {
                         </Grid>
 
                         <Grid alignItems="center" xs={6}>
-                            <ChatRoom roomId={this.state.roomId} title={this.state.roomTitle} ref={(e) => {this.chatRoom = e}}/>
+                            <ChatRoom roomId={this.state.roomId} title={this.state.roomTitle} ref={(e) => {this.chatRoom = e}} messages={this.state.messages}/>
                         </Grid>
 
                     </Grid>
@@ -68,9 +69,13 @@ class App extends Component {
     prepareRoomForUser(userId) {
         ApiCaller.call(ApiCaller.PREPARE_ROOM, "POST", {"userId": userId},
             (res) => {
-                console.log(res.roomId);
-                this.setState({roomId: res.roomId}, () => {
-                    this.chatRoom.changeRoom(this.state.roomId)
+                this.setState(
+                    {
+                        roomId: res.roomId,
+                        roomTitle: res.roomTitle,
+                        messages: res.historicalMessagesDTO.messages
+                    }, () => {
+                    this.chatRoom.changeRoom(this.state.roomId, this.state.roomTitle, this.state.messages)
                 });
             });
     }

@@ -1,6 +1,7 @@
 package cz.mazl.tul.controller;
 
 import cz.mazl.tul.bussines.Message;
+import cz.mazl.tul.bussines.dto.PrepareChatRoomDto;
 import cz.mazl.tul.dto.*;
 import cz.mazl.tul.service.message.MessageService;
 import cz.mazl.tul.service.room.ChatroomService;

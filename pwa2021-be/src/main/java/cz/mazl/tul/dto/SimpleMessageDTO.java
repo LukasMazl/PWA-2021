@@ -57,4 +57,9 @@ public class SimpleMessageDTO implements Message {
     public void setTitle(String title) {
         this.title = title;
     }
+
+    @Override
+    public int compareTo(Message o) {
+        return o.getDate().compareTo(getDate());
+    }
 }
