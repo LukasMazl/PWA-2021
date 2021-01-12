@@ -50,13 +50,13 @@ class App extends Component {
                         justify="space-between"
                         style={{"padding": "20px"}}
                     >
-                        <Grid alignItems="center" xs={3}>
+                        <Grid alignItems="center" xs={3} style={{"height": "auto"}}>
                             <Paper>
-                                <OnlineUsers onSendButtomClicked={this.prepareRoomForUser.bind(this)}/>
+                                <OnlineUsers onSendButtomClicked={this.prepareRoomForUser.bind(this)} users={UserContextHolder.userHolder.userDataDtoSet}/>
                             </Paper>
                         </Grid>
 
-                        <Grid alignItems="center" xs={6}>
+                        <Grid alignItems="center" xs={8}>
                             <ChatRoom roomId={this.state.roomId} title={this.state.roomTitle} ref={(e) => {this.chatRoom = e}} messages={this.state.messages}/>
                         </Grid>
 

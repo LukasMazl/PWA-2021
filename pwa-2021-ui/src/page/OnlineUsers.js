@@ -12,12 +12,62 @@ class OnlineUsers extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {users: null}
+        console.log(props);
+        this.state = {users: props.users}
     }
 
     onMessage(data) {
         UserContextHolder.onlineUsersHolder = data;
-        this.setState({users: data});
+        console.log(data);
+        let onlineUser = this.prepareUsers(data);
+        console.log(onlineUser)
+        this.setState({users: onlineUser});
+    }
+
+    prepareUsers(onlineUser) {
+        let usersClone = this.state.users;
+        let users = [];
+        for(let userIndex in usersClone) {
+            users.push(
+                {
+                    userId: usersClone[userIndex].userId,
+                    isOnline: false,
+                    userName: usersClone[userIndex].userName,
+                    avatar: usersClone[userIndex].avatar
+                }
+            );
+        }
+        if(onlineUser !== null && onlineUser !== undefined) {
+            for(let userIndex in onlineUser) {
+                let user = onlineUser[userIndex];
+                console.log(user);
+                let foundUserIndex = this.findUserIndex(user.userId, users);
+
+                if(foundUserIndex == -1) {
+                    user[foundUserIndex].isOnline = true;
+                    users.push(user);
+                } else {
+                    let inStateUser = users[foundUserIndex];
+                    inStateUser.isOnline = true;
+                }
+                console.log(users);
+            }
+            return users;
+        }
+        return users;
+    }
+
+
+
+    findUserIndex(userId, list) {
+        if(list === null || list === undefined)
+            return -1;
+        for(let user in list) {
+            if(list[user].userId === userId) {
+                return user;
+            }
+        }
+        return -1;
     }
 
     render() {
@@ -57,7 +107,7 @@ class OnlineUsers extends Component {
 
         let result = users.map((value, index) => {
             if(value.userId !== UserContextHolder.userHolder.userId) {
-                return (<OnlineUserItem user={value} onClick={this.onSendButtonClicked.bind(this)}/>);
+                return (<OnlineUserItem user={value} onClick={this.onSendButtonClicked.bind(this)} isOnline={value.isOnline}/>);
             } else {
                 return(<div/>);
             }

@@ -9,7 +9,6 @@ import CardContent from "@material-ui/core/CardContent/CardContent";
 import Typography from "@material-ui/core/Typography/Typography";
 import CardActions from "@material-ui/core/CardActions/CardActions";
 import MessageListViewer from "../../component/MessageListViewer";
-import ApiCaller from "../../api/ApiCaller";
 import GlobalConstant from "../../config/GlobalConstant";
 import UserAction from "../../action/UserAction"
 
@@ -89,7 +88,7 @@ class ChatRoom extends React.Component {
                         Send
                     </Button>
                 </Grid>
-            </Grid>
+                </Grid>
         );
     }
 

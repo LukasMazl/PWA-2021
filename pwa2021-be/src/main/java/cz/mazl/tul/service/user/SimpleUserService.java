@@ -2,7 +2,7 @@ package cz.mazl.tul.service.user;
 
 import cz.mazl.tul.bussines.dto.UserDTO;
 import cz.mazl.tul.config.props.DefaultChatRoomProperties;
-import cz.mazl.tul.dto.OnlineUser;
+import cz.mazl.tul.dto.UserDataDto;
 import cz.mazl.tul.dto.UserDto;
 import cz.mazl.tul.entity.AuditEntity;
 import cz.mazl.tul.entity.ChatRoomEntity;
@@ -102,33 +102,40 @@ public class SimpleUserService implements UserService {
             return e.getUserId();
         }).collect(Collectors.toList());
         List<UserEntity> userEntities = userRepository.findAllByUserIdIn(userIds);
-        List<OnlineUser> onlineUsersToWebSocket = prepareOnlineUsers(userEntities);
-        messageSender.convertAndSend("/topics/user/online", onlineUsersToWebSocket);
+        List<UserDataDto> usersToWebSocketDataDto = prepareOnlineUsers(userEntities);
+        messageSender.convertAndSend("/topics/user/online", usersToWebSocketDataDto);
     }
 
-    private List<OnlineUser> prepareOnlineUsers(List<UserEntity> userEntities) {
-        List<OnlineUser> onlineUsers = new LinkedList<>();
+    private List<UserDataDto> prepareOnlineUsers(List<UserEntity> userEntities) {
+        List<UserDataDto> userDataDtos = new LinkedList<>();
         for(UserEntity userEntity: userEntities) {
-            OnlineUser onlineUser = new OnlineUser();
-            onlineUser.setAvatar(userEntity.getAvatarUrl());
-            onlineUser.setUserId(userEntity.getUserId());
-            onlineUser.setUserName(userEntity.getName());
-            onlineUsers.add(onlineUser);
+            UserDataDto userDataDto = new UserDataDto();
+            userDataDto.setAvatar(userEntity.getAvatarUrl());
+            userDataDto.setUserId(userEntity.getUserId());
+            userDataDto.setUserName(userEntity.getName());
+            userDataDtos.add(userDataDto);
         }
-        return onlineUsers;
+        return userDataDtos;
     }
 
 
     @Override
-    public List<UserDto> avaibleUsers() {
+    public Set<UserDataDto> avaibleUsers() {
         Iterable<UserEntity> userEntities = userRepository.findAll();
-        List<UserDto> userDtos = new ArrayList<>();
+        Set<UserDataDto> userDtos = new HashSet<>();
         for(UserEntity userEntity : userEntities) {
-            UserDto userDto = new UserDto();
+            UserDataDto userDto = new UserDataDto();
             userDto.setUserId(userEntity.getUserId());
-            userDto.setFullName(userEntity.getName());
+            userDto.setUserName(userEntity.getName());
+            userDto.setAvatar(userEntity.getAvatarUrl());
             userDtos.add(userDto);
         }
         return userDtos;
+    }
+
+    @Transactional
+    @Override
+    public void deleteUserAudits() {
+        auditRepository.deleteAll();
     }
 }

@@ -1,6 +1,6 @@
 package cz.mazl.tul.dto;
 
-public class OnlineUser {
+public class UserDataDto {
     private String userName;
     private String avatar;
     private String userId;

@@ -1,9 +1,12 @@
 package cz.mazl.tul.dto;
 
+import java.util.Set;
+
 public class UserDto {
     private String userId;
     private String fullName;
     private String lastRoomId;
+    private Set<UserDataDto> userDataDtoSet;
 
     public String getUserId() {
         return userId;
@@ -29,4 +32,11 @@ public class UserDto {
         this.lastRoomId = lastRoomId;
     }
 
+    public Set<UserDataDto> getUserDataDtoSet() {
+        return userDataDtoSet;
+    }
+
+    public void setUserDataDtoSet(Set<UserDataDto> userDataDtoSet) {
+        this.userDataDtoSet = userDataDtoSet;
+    }
 }

@@ -1,9 +1,8 @@
 package cz.mazl.tul.service.user;
 
 import cz.mazl.tul.bussines.dto.UserDTO;
-import cz.mazl.tul.dto.UserDto;
-
-import java.util.List;
+import cz.mazl.tul.dto.UserDataDto;
+import java.util.Set;
 
 public interface UserService {
 
@@ -19,5 +18,7 @@ public interface UserService {
 
     void removeOldAudit();
 
-    List<UserDto> avaibleUsers();
+    Set<UserDataDto> avaibleUsers();
+
+    void deleteUserAudits();
 }
