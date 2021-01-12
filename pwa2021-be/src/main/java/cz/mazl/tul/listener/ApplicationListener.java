@@ -42,7 +42,7 @@ public class ApplicationListener {
             OAuth2AuthenticationToken oAuth2AuthenticationToken = (OAuth2AuthenticationToken) event.getUser();
             String userId = (String) oAuth2AuthenticationToken.getPrincipal().getAttributes().get(PARAM_EMAIL);
             String sessionId = oAuth2AuthenticationToken.getName();
-          //  userService.logoutUserLogin(userId, sessionId);
+            userService.logoutUserLogin(userId, sessionId);
         }
         userService.sendOnlineUserBrowcast();
     }

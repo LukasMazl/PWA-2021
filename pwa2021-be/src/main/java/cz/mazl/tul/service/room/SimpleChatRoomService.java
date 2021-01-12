@@ -103,23 +103,34 @@ public class SimpleChatRoomService implements ChatroomService {
         }
 
         String roomId = createNewRoom(authorId, "", Arrays.asList(userIdToChat));
+        PreparedChatRoomDto chatRoomDto = new PreparedChatRoomDto();
+        chatRoomDto.setRoomId(roomId);
+        chatRoomDto.setRoomTitle(userForChat.getName());
+        HistoricalMessagesDTO historicalMessagesDTO = new HistoricalMessagesDTO();
+        historicalMessagesDTO.setSorted(true);
+        historicalMessagesDTO.setRoomTitle(userForChat.getName());
+        historicalMessagesDTO.setRoomId(roomId);
+        historicalMessagesDTO.setMessages(new LinkedList<>());
+        chatRoomDto.setHistoricalMessagesDTO(historicalMessagesDTO);
 
-        return new PreparedChatRoomDto();
+        return chatRoomDto;
     }
 
     private PreparedChatRoomDto prepareRoomDto(ChatRoomEntity chatRoomEntity, String authorId) {
         PreparedChatRoomDto preparedChatRoomDto = new PreparedChatRoomDto();
         preparedChatRoomDto.setRoomId(chatRoomEntity.getChatRoomId());
-        preparedChatRoomDto.setRoomTitle(prepareChatRoomTitle(chatRoomEntity));
+        preparedChatRoomDto.setRoomTitle(prepareChatRoomTitle(chatRoomEntity, authorId));
         preparedChatRoomDto.setHistoricalMessagesDTO(convertToHistoricalMessage(chatRoomEntity, authorId));
         return preparedChatRoomDto;
     }
 
-    private String prepareChatRoomTitle(ChatRoomEntity chatRoomEntity) {
+    private String prepareChatRoomTitle(ChatRoomEntity chatRoomEntity, String userId) {
         StringBuilder titleStringBuilder = new StringBuilder();
         for(UserEntity userEntity: chatRoomEntity.getUserEntities()) {
-            titleStringBuilder.append(userEntity.getName());
-            titleStringBuilder.append(", ");
+            if(userEntity.getUserId().compareTo(userId) != 0) {
+                titleStringBuilder.append(userEntity.getName());
+                titleStringBuilder.append(", ");
+            }
         }
         return titleStringBuilder.substring(0, titleStringBuilder.length() - 2);
     }
