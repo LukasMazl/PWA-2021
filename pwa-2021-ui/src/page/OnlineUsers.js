@@ -29,7 +29,7 @@ class OnlineUsers extends Component {
                               ref={(client) => {
                                   this.clientRef = client
                               }}/>
-                <Typography variant="h4" component="h4">
+                <Typography variant="h4" component="h4" style={{"textAlign":"center"}}>
                    Users
                 </Typography>
                 <Divider/>
@@ -56,7 +56,7 @@ class OnlineUsers extends Component {
         let users = this.state.users;
 
         let result = users.map((value, index) => {
-            if(value.userId !== UserContextHolder.onlineUsersHolder) {
+            if(value.userId !== UserContextHolder.onlineUsersHolder.userId) {
                 return (<OnlineUserItem user={value} onClick={this.onSendButtonClicked.bind(this)}/>);
             } else {
                 return(<div/>);

@@ -82,7 +82,7 @@ public class SimpleMessageService implements MessageService {
         for(MessageEntity messageEntity: messageEntities) {
             UserEntity author = messageEntity.getAuthor();
             SimpleMessage simpleMessage = new SimpleMessage();
-            simpleMessage.setTitle(chatRoomEntity.getTitle());
+            simpleMessage.setTitle(prepareChatRoomTitle(chatRoomEntity));
             simpleMessage.setDate(messageEntity.getCreated());
             simpleMessage.setMine(messageEntity.getAuthor().getUserId().compareTo(userId) == 0);
             simpleMessage.setMessage(messageEntity.getMessage());
@@ -94,6 +94,15 @@ public class SimpleMessageService implements MessageService {
             messages.add(simpleMessage);
         }
         return messages;
+    }
+
+    private String prepareChatRoomTitle(ChatRoomEntity chatRoomEntity) {
+        StringBuilder titleStringBuilder = new StringBuilder();
+        for(UserEntity userEntity: chatRoomEntity.getUserEntities()) {
+            titleStringBuilder.append(userEntity.getName());
+            titleStringBuilder.append(", ");
+        }
+        return titleStringBuilder.substring(0, titleStringBuilder.length() - 3);
     }
 
     @Override
