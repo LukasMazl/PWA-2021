@@ -43,10 +43,11 @@ class OnlineUsers extends Component {
                 if(foundUserIndex == -1) {
                     user.isOnline = true;
                     users.push({
-                        userId: user[userIndex].userId,
+                        userId: user.userId,
                         isOnline: true,
-                        userName: user[userIndex].userName,
-                        avatar: user[userIndex].avatar}
+                        userName: user.userName,
+                        avatar: user.avatar
+                    }
                         );
                 } else {
                     let inStateUser = users[foundUserIndex];
