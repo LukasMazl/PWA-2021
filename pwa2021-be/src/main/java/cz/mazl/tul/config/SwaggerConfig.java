@@ -20,7 +20,7 @@ public class SwaggerConfig {
 
     @Bean
     public Docket api() {
-        return new Docket(DocumentationType.SPRING_WEB).apiInfo(new ApiInfo(
+        return new Docket(DocumentationType.SWAGGER_2).apiInfo(new ApiInfo(
                 "PWA 2021",
                 "Semestral work",
                 "1.0.0",

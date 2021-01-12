@@ -98,7 +98,7 @@ class ChatRoom extends React.Component {
             return (
                 <Card style={{marginTop: "20px"}}>
                     <CardHeader title={<Typography variant="body2" color="textSecondary" component="p">
-                        {this.props.title}
+                        {this.props.roomTitle}
                     </Typography>}/>
                     <CardContent>
                         <MessageListViewer messages={

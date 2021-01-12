@@ -56,7 +56,7 @@ class OnlineUsers extends Component {
         let users = this.state.users;
 
         let result = users.map((value, index) => {
-            if(value.userId !== UserContextHolder.onlineUsersHolder.userId) {
+            if(value.userId !== UserContextHolder.userHolder.userId) {
                 return (<OnlineUserItem user={value} onClick={this.onSendButtonClicked.bind(this)}/>);
             } else {
                 return(<div/>);

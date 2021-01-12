@@ -24,7 +24,7 @@ class OnlineUserItem extends Component {
                                 variant="body2"
                                 color="textPrimary"
                             >
-                                <Button variant="contained" color="primary" href="#contained-buttons" onClick={
+                                <Button variant="contained" color="primary" onClick={
                                     (e) =>
                                     {this.props.onClick(this.props.user.userId)}
                                 }>

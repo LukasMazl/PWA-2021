@@ -88,6 +88,8 @@ public class SimpleUserService implements UserService {
         auditRepository.deleteByDateAfter(new Date());
     }
 
+
+    @Transactional
     @Override
     public void logoutUserLogin(String userId, String sessionId) {
         auditRepository.deleteByUserIdAndSessionId(userId, sessionId);
