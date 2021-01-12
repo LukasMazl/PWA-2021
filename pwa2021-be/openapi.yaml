@@ -1,0 +1,228 @@
+openapi: 3.0.1
+info:
+  title: OpenAPI definition
+  version: v0
+servers:
+  - url: 'http://localhost:8080'
+    description: Generated server url
+paths:
+  /api/v1/send:
+    post:
+      tags:
+        - chat-controller
+      operationId: sendMessage
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                sendMessageDTO:
+                  $ref: '#/components/schemas/SendMessageDTO'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/SimpleMessageDTO'
+  /api/v1/room/prepare:
+    post:
+      tags:
+        - room-controller
+      operationId: preparedChatRoom
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                createNewRoomDto:
+                  $ref: '#/components/schemas/PrepareChatRoomDto'
+
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/PreparedChatRoomDto'
+  /api/v1/room/create:
+    post:
+      tags:
+        - room-controller
+      operationId: creteNewRoom
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                createNewRoomDto:
+                  $ref: '#/components/schemas/CreateNewRoomDto'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/CreateRoomDto'
+  /user/context:
+    get:
+      tags:
+        - user-controller
+      operationId: getUserContext
+      responses:
+        '200':
+          description: OK
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/UserDto'
+  /api/v1/room/messages:
+    get:
+      tags:
+        - room-controller
+      operationId: getHistoricalMessages
+      parameters:
+        - name: roomID
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/HistoricalMessagesDTO'
+  /api/v1/room/all:
+    get:
+      tags:
+        - room-controller
+      operationId: getUsersChatRoom
+      responses:
+        '200':
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ChatRoomDTO'
+components:
+  schemas:
+    SendMessageDTO:
+      type: object
+      properties:
+        message:
+          type: string
+        roomId:
+          type: string
+    Author:
+      type: object
+      properties:
+        getuserID:
+          type: string
+        userAvatar:
+          type: string
+        authorFullName:
+          type: string
+    SimpleMessageDTO:
+      type: object
+      properties:
+        message:
+          type: string
+        author:
+          $ref: '#/components/schemas/Author'
+        title:
+          type: string
+        date:
+          type: string
+          format: date-time
+        mine:
+          type: boolean
+    PrepareChatRoomDto:
+      type: object
+      properties:
+        userId:
+          type: string
+    HistoricalMessagesDTO:
+      type: object
+      properties:
+        roomId:
+          type: string
+        roomTitle:
+          type: string
+        sorted:
+          type: boolean
+        messages:
+          type: array
+          items:
+            $ref: '#/components/schemas/Message'
+    Message:
+      type: object
+      properties:
+        message:
+          type: string
+        date:
+          type: string
+          format: date-time
+        title:
+          type: string
+        author:
+          $ref: '#/components/schemas/Author'
+        mine:
+          type: boolean
+    PreparedChatRoomDto:
+      type: object
+      properties:
+        roomId:
+          type: string
+        roomTitle:
+          type: string
+        historicalMessagesDTO:
+          $ref: '#/components/schemas/HistoricalMessagesDTO'
+    CreateNewRoomDto:
+      type: object
+      properties:
+        userList:
+          type: array
+          items:
+            type: string
+        roomName:
+          type: string
+    CreateRoomDto:
+      type: object
+      properties:
+        roomId:
+          type: string
+    UserDataDto:
+      type: object
+      properties:
+        userName:
+          type: string
+        avatar:
+          type: string
+        userId:
+          type: string
+    UserDto:
+      type: object
+      properties:
+        userId:
+          type: string
+        fullName:
+          type: string
+        lastRoomId:
+          type: string
+        userDataDtoSet:
+          uniqueItems: true
+          type: array
+          items:
+            $ref: '#/components/schemas/UserDataDto'
+    ChatRoomDTO:
+      type: object
