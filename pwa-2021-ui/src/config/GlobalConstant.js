@@ -4,7 +4,7 @@ class GlobalConstant {
 
     static WEB_SOCKET_URL_SUFFIX = "/ws";
 
-   // static HTTP_PROTOCOL = "http://";
+    //static HTTP_PROTOCOL = "http://";
     //static DOMAIN_NAME = "localhost:8080";
     static FULL_WEB_SOCKET_URL = GlobalConstant.HTTP_PROTOCOL + GlobalConstant.DOMAIN_NAME + GlobalConstant.WEB_SOCKET_URL_SUFFIX;
 

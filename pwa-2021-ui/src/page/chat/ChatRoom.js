@@ -1,5 +1,5 @@
 import React from "react";
-import SockJsClient from 'react-stomp';
+import SockJsClient from "../../sockjs/client"
 import Button from "@material-ui/core/Button/Button";
 import TextField from "@material-ui/core/TextField/TextField";
 import Grid from "@material-ui/core/Grid/Grid";
@@ -37,12 +37,8 @@ class ChatRoom extends React.Component {
         this.getLastDataForRoom(roomId, title, messages);
     }
 
-    shouldComponentUpdate(nextProps, nextState, nextContext) {
-        return true;
-    }
-
     getLastDataForRoom(roomId, title, messages) {
-        if(messages === null || messages ===undefined) {
+        if (messages === null || messages === undefined) {
             UserAction.getLastDataForRoom(roomId, this.onGetMessage.bind(this));
         } else {
             this.setState({
@@ -51,6 +47,7 @@ class ChatRoom extends React.Component {
                 roomId: roomId,
                 roomTittle: title
             });
+            this.forceUpdate();
         }
     }
 
@@ -59,6 +56,7 @@ class ChatRoom extends React.Component {
     }
 
     renderTextForm(roomId) {
+        console.log(roomId);
         return (
             <Grid container
                   direction="row"
@@ -91,7 +89,7 @@ class ChatRoom extends React.Component {
                         Send
                     </Button>
                 </Grid>
-                </Grid>
+            </Grid>
         );
     }
 
@@ -103,6 +101,8 @@ class ChatRoom extends React.Component {
 
     render() {
         const roomId = this.state.roomId;
+        let jsSock = this.prepareJsSock(roomId);
+        console.log(roomId);
         if (!this.state.isLoaded) {
             return this.renderChat(roomId)
         } else {
@@ -120,11 +120,7 @@ class ChatRoom extends React.Component {
                                            ref={(e) => this.messageList = e}/>
                     </CardContent>
                     <CardActions disableSpacing>
-                        <SockJsClient url={GlobalConstant.FULL_WEB_SOCKET_URL} topics={['/topics/room/' + roomId]}
-                                      onMessage={this.onMessage.bind(this)}
-                                      ref={(client) => {
-                                          this.clientRef = client
-                                      }}/>
+                        {jsSock}
                         {this.renderTextForm(roomId)}
                     </CardActions>
 
@@ -133,12 +129,28 @@ class ChatRoom extends React.Component {
         }
     }
 
+    prepareJsSock(roomId) {
+        return (<SockJsClient url={GlobalConstant.FULL_WEB_SOCKET_URL} topics={['/topics/room/' + roomId]}
+                              onMessage={this.onMessage.bind(this)}
+                              autoReconnect={true}
+                              onConnect={(e) => {
+                                  console.log(e);
+                                }
+                              }
+                              onDisconnect={console.log("Disconnected!")}
+                              ref={(client) => {
+                                  this.clientRef = client
+                              }}
+                              debug={true}/>);
+    }
+
     onGetMessage(res) {
         const messages = res.messages;
         this.setState({
             messages: messages,
             isLoaded: true,
-            roomTittle: res.roomTitle
+            roomTittle: res.roomTitle,
+            roomId: res.roomId
         });
     }
 }

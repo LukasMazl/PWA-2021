@@ -79,7 +79,8 @@ class OnlineUsers extends Component {
                               onMessage={this.onMessage.bind(this)}
                               ref={(client) => {
                                   this.clientRef = client
-                              }}/>
+                              }}
+                              />
                 <Typography variant="h4" component="h4" style={{"textAlign":"center"}}>
                    Users
                 </Typography>
