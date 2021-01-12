@@ -18,6 +18,7 @@ class ChatRoom extends React.Component {
         super(props);
         console.log(props);
         this.state = {
+            roomId: props.roomId,
             roomTittle: props.title,
             isLoaded: props.messages !== undefined,
             messages: props.messages
@@ -46,7 +47,9 @@ class ChatRoom extends React.Component {
         } else {
             this.setState({
                 messages: messages,
-                isLoaded: true
+                isLoaded: true,
+                roomId: roomId,
+                roomTittle: title
             });
         }
     }
@@ -99,7 +102,7 @@ class ChatRoom extends React.Component {
     }
 
     render() {
-        const roomId = this.props.roomId;
+        const roomId = this.state.roomId;
         if (!this.state.isLoaded) {
             return this.renderChat(roomId)
         } else {
