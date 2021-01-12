@@ -77,7 +77,7 @@ class App extends Component {
 
     getSetUserHolder(res) {
         UserContextHolder.userHolder = res;
-        this.setState({isReady: true, roomId: res.lastRoomId, roomTitle: res.title});
+        this.setState({isReady: true, roomId: res.lastRoomId, roomTitle: res.roomTitle});
     }
 
     getUserContext() {

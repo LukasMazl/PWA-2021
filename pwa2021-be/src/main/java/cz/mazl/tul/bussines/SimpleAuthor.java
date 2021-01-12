@@ -2,27 +2,19 @@ package cz.mazl.tul.bussines;
 
 public class SimpleAuthor implements Author {
 
-    private String authorFullname;
+    private String authorFullName;
     private String avatar;
     private String userId;
 
     public SimpleAuthor(){
     }
 
-    public void setFullname(String authorFullname) {
-        this.authorFullname = authorFullname;
+    public void setAuthorFullName(String authorFullName) {
+        this.authorFullName = authorFullName;
     }
 
     public void setAvatar(String avatar) {
         this.avatar = avatar;
-    }
-
-    public String getAuthorFullname() {
-        return authorFullname;
-    }
-
-    public void setAuthorFullname(String authorFullname) {
-        this.authorFullname = authorFullname;
     }
 
     public String getAvatar() {
@@ -39,7 +31,7 @@ public class SimpleAuthor implements Author {
 
     @Override
     public String getAuthorFullName() {
-        return authorFullname;
+        return authorFullName;
     }
 
     @Override

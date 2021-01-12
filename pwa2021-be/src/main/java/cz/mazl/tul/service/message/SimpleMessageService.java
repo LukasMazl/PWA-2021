@@ -87,7 +87,7 @@ public class SimpleMessageService implements MessageService {
             simpleMessage.setMine(messageEntity.getAuthor().getUserId().compareTo(userId) == 0);
             simpleMessage.setMessage(messageEntity.getMessage());
             SimpleAuthor simpleAuthor = new SimpleAuthor();
-            simpleAuthor.setAuthorFullname(author.getName());
+            simpleAuthor.setAuthorFullName(author.getName());
             simpleAuthor.setAvatar(author.getAvatarUrl());
             simpleAuthor.setUserId(author.getUserId());
             simpleMessage.setAuthor(simpleAuthor);

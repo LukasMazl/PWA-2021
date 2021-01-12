@@ -8,7 +8,6 @@
       <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/holder/UserContextHolder.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/pom.xml" afterDir="false" />
@@ -17,125 +16,10 @@
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/component/Message.css" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/Message.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageListViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/MessageListViewer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/component/user/OnlineUserItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/component/user/OnlineUserItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwa-2021-ui/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-2021-ui/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/SimpleUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/SimpleUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/img/background-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/css/main.56c564a2.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/css/main.56c564a2.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.0352bb31.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.0352bb31.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.0352bb31.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.0db3949b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.0db3949b.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.0db3949b.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.25481b9d.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.25481b9d.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.25481b9d.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.4c57f8c6.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.4c57f8c6.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.4c57f8c6.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.71a7a008.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.71a7a008.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.71a7a008.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.a09118f2.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.a09118f2.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.a09118f2.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.b48ecfe1.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.b48ecfe1.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.b48ecfe1.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.b961dcaa.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.b961dcaa.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.b961dcaa.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.e64b8c0f.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.e64b8c0f.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.e64b8c0f.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.ec9a684a.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.ec9a684a.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.ec9a684a.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.f8e61abc.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.f8e61abc.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.f8e61abc.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.fe23efe8.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.fe23efe8.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/2.fe23efe8.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.0c4a169e.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.0c4a169e.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.0ed8ec8e.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.0ed8ec8e.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.102d38e8.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.102d38e8.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.15dc7ac4.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.15dc7ac4.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.1a08bc2e.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.1a08bc2e.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.1b06d911.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.1b06d911.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.2644e491.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.2644e491.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.28536d57.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.28536d57.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.2872e9e9.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.2872e9e9.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.2bbbb4b9.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.2bbbb4b9.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.3f07db45.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.3f07db45.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.55e4782b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.55e4782b.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.560145b5.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.560145b5.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.650d49ce.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.650d49ce.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.6834bf03.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.6834bf03.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.7b608eff.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.7b608eff.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.83d38687.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.83d38687.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.9079ff65.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.9079ff65.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.a19d1b61.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.a19d1b61.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.a30a2b76.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.a30a2b76.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.b585fb72.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.b585fb72.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.b595b36f.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.b595b36f.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.ba907cfc.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.ba907cfc.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.c9d95603.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.c9d95603.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.d0010845.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.d0010845.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.da6bd077.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.da6bd077.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.dded5fbb.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.dded5fbb.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.e4b5d03e.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.e4b5d03e.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.f2b7dd19.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.f2b7dd19.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.f374d61c.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.f374d61c.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.f7be576f.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.f7be576f.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.fd62cd11.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/main.fd62cd11.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/runtime-main.d550a0ed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/WEB-INF/static/js/runtime-main.d550a0ed.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/MVCWebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/MVCWebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/SwaggerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/target/classes/cz/mazl/tul/config/WebSocketConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/SimpleAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/bussines/SimpleAuthor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/SimpleMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/SimpleMessageService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -178,8 +62,8 @@
           <entry key="css" value="49" />
           <entry key="dummy" value="11" />
           <entry key="gitignore" value="26" />
-          <entry key="java" value="12390" />
-          <entry key="js" value="8172" />
+          <entry key="java" value="12400" />
+          <entry key="js" value="8173" />
           <entry key="json" value="52" />
           <entry key="jsp" value="20" />
           <entry key="map" value="1" />
@@ -191,10 +75,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="49" />
-          <entry key="JAVA" value="12390" />
+          <entry key="JAVA" value="12400" />
           <entry key="JSON" value="52" />
           <entry key="JSP" value="20" />
-          <entry key="JavaScript" value="8172" />
+          <entry key="JavaScript" value="8173" />
           <entry key="PLAIN_TEXT" value="181" />
           <entry key="Properties" value="295" />
           <entry key="SourceMap" value="1" />
@@ -209,8 +93,8 @@
           <entry key="gitignore" value="4" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="266" />
-          <entry key="js" value="88" />
+          <entry key="java" value="267" />
+          <entry key="js" value="89" />
           <entry key="json" value="2" />
           <entry key="jsp" value="3" />
           <entry key="lock" value="2" />
@@ -229,10 +113,10 @@
           <entry key="CSS" value="11" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="266" />
+          <entry key="JAVA" value="267" />
           <entry key="JSON" value="2" />
           <entry key="JSP" value="3" />
-          <entry key="JavaScript" value="88" />
+          <entry key="JavaScript" value="89" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Properties" value="9" />
@@ -251,28 +135,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="96" column="16" lean-forward="true" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+              <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/MVCWebConfig.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="270">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -316,14 +194,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+            <state relative-caret-position="310">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/SimpleMessageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="89" column="42" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -360,11 +247,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>io.</find>
-      <find>mon</find>
-      <find>tom</find>
-      <find>spring-boot-starter-tomcat</find>
-      <find>invalid_id_token</find>
       <find>send</find>
       <find>data</find>
       <find>localhost:8080</find>
@@ -389,7 +271,12 @@
       <find>springfox</find>
       <find>context</find>
       <find>#contained-buttons</find>
+      <find>authorFullName</find>
+      <find>setAuthorFullName</find>
+      <find>AuthorFullname</find>
+      <find>Roomtitle</find>
       <find>userId</find>
+      <find>roomTitle</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -450,15 +337,15 @@
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/dto/PreparedChatRoomDto.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/room/SimpleChatRoomService.java" />
-        <option value="$PROJECT_DIR$/pwa-2021-ui/src/App.js" />
         <option value="$PROJECT_DIR$/pwa-2021-ui/src/config/GlobalConstant.js" />
-        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/SimpleMessageService.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/config/MVCWebConfig.java" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/user/SimpleUserService.java" />
         <option value="$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js" />
         <option value="$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js" />
+        <option value="$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/SimpleMessageService.java" />
+        <option value="$PROJECT_DIR$/pwa-2021-ui/src/App.js" />
       </list>
     </option>
   </component>
@@ -903,14 +790,6 @@
             <path>
               <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa2021-be" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwa2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwa2021" type="462c0819:PsiDirectoryNode" />
               <item name="pwa-2021-ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -956,7 +835,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610466825769" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610467492630" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pwa2021-be/src/main/webapp/WEB-INF/pages/ahoj.jsp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -1052,12 +931,12 @@
       <workItem from="1609696244173" duration="8351000" />
       <workItem from="1609878762394" duration="330000" />
       <workItem from="1609938460680" duration="583000" />
-      <workItem from="1610388191545" duration="4641000" />
+      <workItem from="1610388191545" duration="5368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125904000" />
+    <option name="totallyTimeSpent" value="126631000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1090,13 +969,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32827735" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31960997" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31939977" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32690248" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3290461" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.38263667" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.38263667" />
       <window_info anchor="bottom" id="TypeScript" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1331,16 +1210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/controller/RoomController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1386,13 +1255,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/SimpleMessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1462,13 +1324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="96" column="16" lean-forward="true" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/component/MessageListViewer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1476,12 +1331,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pwa2021-be/src/main/java/cz/mazl/tul/service/message/SimpleMessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="89" column="42" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/chat/ChatRoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/page/OnlineUsers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        <state relative-caret-position="310">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-2021-ui/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
